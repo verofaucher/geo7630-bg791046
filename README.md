@@ -7,7 +7,9 @@
   - Un serveur de WFS **pg_featureserv** 
   - Un serveur geospatial complet **Geoserver**
 
-Vous pourrez ensuite grâce à un ETL charger vos données dans la base de données Postgresql et diffuser vos données simplement aux applications de votre choix
+Ce repo Git vous permettra de sauvegarder l'ensemble de tous vos travaux, la provenance de vos données et d'executer l'ensemble du processus d'ELT ou ETL à tous moment pour répliquer un état initial sans jamais perdre vos données.
+
+Ce repot Git servira aussi d'environnement de développement et de déploiment de votre application cartographique open source
 
 ## Tutoriel d'installation de la stack d'intégration et de services de données spatiales
 

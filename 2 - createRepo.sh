@@ -1,5 +1,6 @@
 ## Changer de répertoire de travail
-cd /home/geo7630/Desktop/geo7630 &&
+git clone https://github.com/Captain-Oski/geo7630.git
+cd geo7630
 ## Configurer Git avec vos credentials personnels
 git config --global user.email "mettrecourrielusagerici" &&
 git config --global user.name "mettrenomusagerici" &&

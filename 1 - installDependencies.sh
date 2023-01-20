@@ -20,7 +20,4 @@ sudo apt-get update &&
 ### Installation de Docker compose
 sudo apt-get install docker-compose-plugin -y &&
 
-### Création du répertoire de travail
-mkdir /home/geo7630/Desktop/geo7630
-
 ### Fin de l'installation des dépendances et outils systèmes

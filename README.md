@@ -2,13 +2,17 @@
 
 ## Tutoriel d'installation de la stack d'intégration et de services de données spatiales
 
-`sudo chmod 775 1\ -\ installDependencies.sh && sudo chmod 775 2\ -\ createRepo.sh`
-`./1\ -\ installDependencies.sh`
-`./2\ -\ createRepo.sh`
-`sudo docker compose up -d`
+    `sudo chmod 775 1\ -\ installDependencies.sh && sudo chmod 775 2\ -\ createRepo.sh`
+
+    `./1\ -\ installDependencies.sh`
+
+    `./2\ -\ createRepo.sh`
+
+    `sudo docker compose up -d`
+
 
 ## Installer l'extension Docker pour VS Code
-  `ctrl+shift+x`
+    `ctrl+shift+x`
 
   Cherchez Docker dans la barre de recherche en haut à gauche
 

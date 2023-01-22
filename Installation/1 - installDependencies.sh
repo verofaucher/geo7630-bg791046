@@ -7,6 +7,19 @@ sudo apt install build-essential dkms linux-headers-$(uname -r) &&
 cd /media/username/VBox_GA_* &&
 ./autorun.sh
 
+## Installation de FME
+
+    curl https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh &&
+    distrobox-create --name ubuntu20.04 --image ubuntu:20.04 -y
+    distrobox-enter ubuntu20.04
+    ### Once inside the container 
+    sudo apt-get update &&
+    sudo apt install gdebi-core -y &&
+    wget https://downloads.safe.com/fme/2021/fme-desktop-2021_2021.2.6.21821~ubuntu.20.04_amd64.deb &&
+    sudo gdebi fme-desktop-2021_2021.2.6.21821~ubuntu.20.04_amd64.deb
+    distrobox-export --app fme
+    
+
 ## Installation de VS Code
     ### Installation des dépendances
     sudo apt-get install wget gpg -y &&

@@ -20,4 +20,12 @@ sudo apt-get update &&
 ### Installation de Docker compose
 sudo apt-get install docker-compose-plugin -y &&
 
+### Installation de DBeaver
+sudo apt update -y &&
+sudo apt -y install default-jdk &&
+curl -fsSL https://dbeaver.io/debs/dbeaver.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/dbeaver.gpg &&
+echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list &&
+sudo apt update -y &&
+sudo apt install dbeaver-ce -y
+
 ### Fin de l'installation des dépendances et outils systèmes

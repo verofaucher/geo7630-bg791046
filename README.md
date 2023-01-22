@@ -7,8 +7,20 @@
   - Un serveur de WFS **pg_featureserv** 
   - Un serveur geospatial complet **Geoserver**
 
-Ce repo Git vous permettra de sauvegarder l'ensemble de tous vos travaux, la provenance de vos données et d'executer l'ensemble du processus d'ELT ou ETL à tous moment pour répliquer un état initial sans jamais perdre vos données.
+  Ce repo Git vous permettra de :
+  - Sauvegarder l'ensemble de tous vos travaux
+  - Enregistrer la provenance de vos données 
+  - D'executer l'ensemble du processus d'ELT ou ETL à tous moment pour répliquer un état initial sans jamais perdre vos données.
 
-Ce repot Git servira aussi d'environnement de développement et de déploiment de votre application cartographique open source
+  Ce repot Git servira aussi :
+  - D'environnement de développement
+  - Déploiment de votre application cartographique open source
 
+  ## Dossier Installation
+    - Contient le processus d'installation de la stack logicielles sous forme de fichier bash et de Dockerfile
+    - Contient les fichiers de configurations des différentes applications GIS
+  ## Dossier Laboratoires
+    - Contient les éléments nécessairent au bon déroulement et à la pratique des laboratoires
+  ## Dossier TPs
+    - Contient les énoncés des différents travaux pratiques
 

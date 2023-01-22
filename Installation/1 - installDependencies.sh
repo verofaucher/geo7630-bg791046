@@ -1,5 +1,12 @@
 ## Mise à jour des librairies OS
 sudo apt-get update &&
+
+## Installation des Virtual Box Guest Additions (full screen, copier coller etc...)
+
+sudo apt install build-essential dkms linux-headers-$(uname -r) &&
+cd /media/username/VBox_GA_* &&
+./autorun.sh
+
 ## Installation de VS Code
     ### Installation des dépendances
     sudo apt-get install wget gpg -y &&

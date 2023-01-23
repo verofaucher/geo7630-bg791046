@@ -19,6 +19,9 @@
 
   Vous devriez voir l'icône de la baleine dans la barre de gauche
 
+## Avancer de lancer docker 
+    Assurer vous d'avoir ctrl+c ctrl+v .env.example et d'avoir généré le .env correctement avec les mots de passe
+
 ## Interface pour les tuiles vectorielles
 ### pg-tileserv
 * http://localhost:7800

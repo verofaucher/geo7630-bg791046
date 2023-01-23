@@ -1,24 +1,15 @@
-## Mise à jour des librairies OS
-sudo apt-get update &&
-
 ## Installation des Virtual Box Guest Additions (full screen, copier coller etc...)
 
-sudo apt install build-essential dkms linux-headers-$(uname -r) &&
-cd /media/username/VBox_GA_* &&
-./autorun.sh
+    sudo apt install virtualbox-guest-utils virtualbox-guest-dkms -y &&
+    sudo apt install git -y
 
 ## Installation de FME
 
-    curl https://raw.githubusercontent.com/89luca89/distrobox/main/install | sudo sh &&
-    distrobox-create --name ubuntu20.04 --image ubuntu:20.04 -y
-    distrobox-enter ubuntu20.04
     ### Once inside the container 
     sudo apt-get update &&
     sudo apt install gdebi-core -y &&
     wget https://downloads.safe.com/fme/2021/fme-desktop-2021_2021.2.6.21821~ubuntu.20.04_amd64.deb &&
-    sudo gdebi fme-desktop-2021_2021.2.6.21821~ubuntu.20.04_amd64.deb
-    distrobox-export --app fme
-    
+    sudo gdebi fme-desktop-2021_2021.2.6.21821~ubuntu.20.04_amd64.deb &&
 
 ## Installation de VS Code
     ### Installation des dépendances
@@ -38,14 +29,23 @@ cd /media/username/VBox_GA_* &&
     sudo usermod -a -G docker $USER &&
 
 ### Installation de Docker compose
-sudo apt-get install docker-compose-plugin -y &&
+s	udo apt-get install docker-compose-plugin -y &&
 
 ### Installation de DBeaver
-sudo apt update -y &&
-sudo apt -y install default-jdk &&
-curl -fsSL https://dbeaver.io/debs/dbeaver.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/dbeaver.gpg &&
-echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list &&
-sudo apt update -y &&
-sudo apt install dbeaver-ce -y
+	sudo apt update -y &&
+	sudo apt -y install default-jdk &&
+	curl -fsSL https://dbeaver.io/debs/dbeaver.gpg.key | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/dbeaver.gpg &&
+	echo "deb https://dbeaver.io/debs/dbeaver-ce /" | sudo tee /etc/apt/sources.list.d/dbeaver.list &&
+	sudo apt update -y &&
+	sudo apt install dbeaver-ce -y &&
 
+## Installation de QGIS
+	sudo apt install gnupg software-properties-common &&
+	sudo mkdir -m755 -p /etc/apt/keyrings &&
+	sudo wget -O /etc/apt/keyrings/qgis-archive-keyring.gpg https://download.qgis.org/downloads/qgis-archive-keyring.gpg &&
+	sudo echo "Types: deb deb-src URIs: https://qgis.org/debian Suites: your-distributions-codename Architectures: amd64 Components: main Signed-By: /etc/apt/keyrings/qgis-archive-keyring.gpg" > /etc/apt/sources.list.d/qgis.sources &&
+	sudo apt update &&
+	sudo apt install qgis qgis-plugin-grass
+
+	
 ### Fin de l'installation des dépendances et outils systèmes

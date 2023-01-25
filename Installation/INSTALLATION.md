@@ -1,5 +1,5 @@
 # Tutoriel Machine Virtuelle et Github
-
+Vous trouverez une copie avec des flèches d'annotation sur le google doc ci-joit : https://docs.google.com/document/d/1O7OMTdLhWRtwtXbU3gJe4TJm8VJgeV6umDSahOt-2VU/edit#
 
 # VM
 

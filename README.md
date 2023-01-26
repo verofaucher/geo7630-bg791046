@@ -24,5 +24,3 @@
   ## Dossier TPs
     - Contient les énoncés des différents travaux pratiques
 
-    Bonjour Groupe
-

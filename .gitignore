@@ -1,2 +1,5 @@
 .env
 .log
+Laboratoires/Lab2/data/*
+*.recover
+*.log

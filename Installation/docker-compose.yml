@@ -7,7 +7,7 @@ services:
     environment: 
     - POSTGRES_PASSWORD=${SUPERUSERPASS}
     volumes:
-    #- ./create_postgres_stack.sql:/docker-entrypoint-initdb.d/create_postgres_stack.sql
+    - ./create_postgres_stack.sql:/docker-entrypoint-initdb.d/create_postgres_stack.sql
     - pgdata:/var/lib/postgresql/data
     restart: always
   # pg_tileserv:
@@ -32,11 +32,20 @@ services:
   #   depends_on:
   #   - "pg"
   #   restart: always
-  # geoserver:
-  #   image: geosolutionsit/geoserver
-  #   ports:
-  #   - 8080:8080
-
+  #   geoserver:
+  #      image: geosolutionsit/geoserver
+  #      ports:
+  #      - 8080:8080
+  #      environment:
+  #      - INSTALL_EXTENSIONS=true
+  #     - STABLE_EXTENSIONS="PGRaster"
+  #   titiler:
+  #    image: "developmentseed/titiler"
+  #    ports:
+  #      - 8000:8000
+  #     environment:
+  #      - PORT=8000
+  #      - WORKERS_PER_CORE=1
 volumes:
   pgdata:
 

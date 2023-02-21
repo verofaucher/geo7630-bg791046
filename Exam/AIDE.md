@@ -15,4 +15,3 @@ Ensuite :
 7. losrque terminé et prêt à soumettre: 
 8. 1. git commit -m 'mon message personnalisé'
 8. 2. git push -u origin main
-   s

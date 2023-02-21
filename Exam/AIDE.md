@@ -1,7 +1,9 @@
 
 Vérifier que tout est bien enregistré et que votre branche actuelle est "commitée et poussée"
 Vérifier que vous avez bien le upstream : 
-0 - git remote add upstream https://github.com/Captain-Oski/geo7630.git
+- git remote -v
+
+0. git remote add upstream https://github.com/Captain-Oski/geo7630.git
 Ensuite :
 
 1. git checkout main

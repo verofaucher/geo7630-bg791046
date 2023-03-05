@@ -14,8 +14,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="11375.9 4638.22"
-#!   DOC_TOP_LEFT="-3886.32 -3130.84"
+#!   DOC_EXTENTS="9215.64 3266.07"
+#!   DOC_TOP_LEFT="-1426.04 -3271.65"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2021.2.6.0 (20220727 - Build 21821 - linux-x64)"
-#!   LAST_SAVE_DATE="2023-03-05T13:29:00"
+#!   LAST_SAVE_DATE="2023-03-05T13:48:24"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,10 +50,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="998.286 -108.622"
+#!   VIEW_POSITION="3284.45 -1371.44"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="58"
+#!   ZOOM_SCALE="77"
 #! >
 #! <DATASETS>
 #! <DATASET
@@ -1243,8 +1243,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="49"
 #!   FEAT_GEOMTYPE="arcgisonline_point"
-#!   POSITION="3992.7401773228694 -2290.0679370010366"
-#!   BOUNDING_RECT="3992.7401773228694 -2290.0679370010366 454 71"
+#!   POSITION="4292.7431773528697 -2430.8856717089961"
+#!   BOUNDING_RECT="4292.7431773528697 -2430.8856717089961 454 71"
 #!   ORDER="500000000000000"
 #!   COLLAPSED="true"
 #!   KEYWORD="ARCGISONLINEFEATURES_1"
@@ -1279,8 +1279,8 @@
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="61"
 #!   FEAT_GEOMTYPE="arcgisonline_point"
-#!   POSITION="6943.5974512138546 -2290.0679370010366"
-#!   BOUNDING_RECT="6943.5974512138546 -2290.0679370010366 454 71"
+#!   POSITION="7243.6004512438549 -2430.8856717089961"
+#!   BOUNDING_RECT="7243.6004512438549 -2430.8856717089961 454 71"
 #!   ORDER="500000000000173"
 #!   COLLAPSED="false"
 #!   KEYWORD="ARCGISONLINEFEATURES_3"
@@ -1335,11 +1335,6 @@
 #!   NAME="CSV2_2"
 #!   OVERRIDE="-CSV2_2_DATASET"
 #!   DATASET="CSV2_2/20220108-donnees-ouvertes-816bd4.zip"
-#! />
-#! <DATASET
-#!   NAME="FeatureReader"
-#!   OVERRIDE="--FeatureReaderDataset_FeatureReader"
-#!   DATASET="@Value(path_unix)"
 #! />
 #! </READER_DATASETS>
 #! <CONNECTIONS>
@@ -1407,20 +1402,6 @@
 #! </CONSTANTS>
 #! <BOOKMARKS>
 #! <BOOKMARK
-#!   IDENTIFIER="16"
-#!   NAME="New Bookmark"
-#!   DESCRIPTION=""
-#!   TOP_LEFT="-3886.3199944819962 1507.3855837276319"
-#!   ORDER="500000000000143"
-#!   PALETTE_COLOR="Color9"
-#!   BOTTOM_RIGHT="-308.78993918144397 690.8855837276318"
-#!   BOUNDING_RECT="-3886.3199944819962 1507.3855837276319 3577.5300553005522 816.50000000000011"
-#!   STICKY="true"
-#!   COLOUR="0.81568627450980391,0.5607843137254902,0.85882352941176465,1"
-#!   CONTENTS="6 12 9 11 8 10 3 4 7 2 5 "
-#! >
-#! </BOOKMARK>
-#! <BOOKMARK
 #!   IDENTIFIER="44"
 #!   NAME="Juillet 2022"
 #!   DESCRIPTION=""
@@ -1436,13 +1417,13 @@
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="63"
-#!   NAME="New Bookmark"
+#!   NAME="Update Aout 2022"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="3900.7401773228694 -1860.8245296346186"
+#!   TOP_LEFT="4200.7431773528697 -2001.6422643425778"
 #!   ORDER="500000000000175"
 #!   PALETTE_COLOR="Color5"
-#!   BOTTOM_RIGHT="7489.5974512138546 -3130.8361297506199"
-#!   BOUNDING_RECT="3900.7401773228694 -1860.8245296346186 3588.8572738909852 1270.0116001160013"
+#!   BOTTOM_RIGHT="7789.6004512438549 -3271.6538644585789"
+#!   BOUNDING_RECT="4200.7431773528697 -2001.6422643425778 3588.8572738909852 1270.0116001160013"
 #!   STICKY="true"
 #!   COLOUR="0.59607843137254901,0.91764705882352937,0.72549019607843135,1"
 #!   CONTENTS="55 62 57 50 61 49 56 58 54 60 51 59 "
@@ -1450,365 +1431,6 @@
 #! </BOOKMARK>
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
-#! <TRANSFORMER
-#!   IDENTIFIER="2"
-#!   TYPE="SubDocumentTransformer"
-#!   VERSION="1"
-#!   POSITION="-2435.306404346095 1378.8855837276319"
-#!   BOUNDING_RECT="-2435.306404346095 1378.8855837276319 430 71"
-#!   ORDER="500000000000130"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="File"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="Directory"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="EXT_N" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="EXT_S" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_FOLDER" PARM_VALUE="/home/geo7630/geo7630/Laboratoires/Lab5"/>
-#!     <XFORM_PARM PARM_NAME="SUB_DOC_NAME" PARM_VALUE="ZipExtractor"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ZipExtractor"/>
-#!     <XFORM_PARM PARM_NAME="ZIP_PATH" PARM_VALUE="@Value(_response_file_path)"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="3"
-#!   TYPE="HTTPCaller"
-#!   VERSION="5"
-#!   POSITION="-3184.3199944819962 1141.3833937057316"
-#!   BOUNDING_RECT="-3184.3199944819962 1141.3833937057316 454 71"
-#!   ORDER="500000000000131"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="Output"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ADDITIONAL_URL_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ADVANCED_REQUEST_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="AUTH_METHOD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_NAMED_CONNECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_PASSWORD" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AUTH_USERNAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CONCURRENCY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONNECTION_TIMEOUT_LENGTH" PARM_VALUE="60"/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CUSTOM_HEADERS_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="ERROR_ATTR" PARM_VALUE="_error"/>
-#!     <XFORM_PARM PARM_NAME="FILE_PATH_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FILE_PATH_ATTR2" PARM_VALUE="_response_file_path"/>
-#!     <XFORM_PARM PARM_NAME="FILE_TYPE" PARM_VALUE=".zip"/>
-#!     <XFORM_PARM PARM_NAME="FOLLOW_REDIRECTS" PARM_VALUE="FOLLOW_WITH_GET"/>
-#!     <XFORM_PARM PARM_NAME="HTTPURL_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HTTP_AUTH_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_METHOD" PARM_VALUE="GET"/>
-#!     <XFORM_PARM PARM_NAME="HTTP_RESPONSE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LOOP_MESSAGE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MAX_HTTP_VERSION" PARM_VALUE="HTTP_2"/>
-#!     <XFORM_PARM PARM_NAME="MAX_TRANSFERS_IN_PROGRESS" PARM_VALUE="25"/>
-#!     <XFORM_PARM PARM_NAME="MINIMUM_ENCRYPTION_LEVEL" PARM_VALUE="OS_DEFAULT"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPARTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTIPART_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTIPART_RESPONSE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MULTIPART_RESPONSE_HEADER_LIST_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_DIRNAME" PARM_VALUE="/home/geo7630/geo7630/Laboratoires/Lab5"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FILENAME" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RATE_LIMIT_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="RATE_LIMIT_INTERVAL_IN_SECONDS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RATE_LIMIT_MAX_REQUESTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RATE_LIMIT_REQUEST_TIMING" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REDIRECT_AUTH" PARM_VALUE="ORIGINAL_DOMAIN_ONLY"/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_ATTRS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_ATTR_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_DIR_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_FILE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_HEADER_LIST_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESPONSE_TYPE" PARM_VALUE="Folder"/>
-#!     <XFORM_PARM PARM_NAME="RETRY_FAILED_TRANSFERS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RETRY_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="RETRY_INITIAL_BACKOFF" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RETRY_MAX_RETRIES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SPLIT_MULTIPART_DOWNLOADS" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="STATUS_CODE_ATTR" PARM_VALUE="_http_status_code"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_ATTR_ENCODING" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TARGET_URL" PARM_VALUE="https:&lt;solidus&gt;&lt;solidus&gt;sitewebbixi.s3.amazonaws.com&lt;solidus&gt;uploads&lt;solidus&gt;docs&lt;solidus&gt;20220107-donnees-ouvertes-8aa623.zip"/>
-#!     <XFORM_PARM PARM_NAME="TLS_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFER_TIMEOUT_LENGTH" PARM_VALUE="90"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_BODY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_CONTENT_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_FILE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="UPLOAD_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USE_COOKIES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="VERIFY_SSL_CERTIFICATES" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="5"
-#!   TYPE="Creator"
-#!   VERSION="5"
-#!   POSITION="-3794.3199944819962 1141.3833937057316"
-#!   BOUNDING_RECT="-3794.3199944819962 1141.3833937057316 430 71"
-#!   ORDER="500000000000132"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="CREATED"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="7"
-#!   TYPE="Tester"
-#!   VERSION="3"
-#!   POSITION="-1664.7986992690442 1378.8855837276319"
-#!   BOUNDING_RECT="-1664.7986992690442 1378.8855837276319 454 71"
-#!   ORDER="500000000000135"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;path_windows&lt;closeparen&gt; CONTAINS stations"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="TEST"/>
-#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="9"
-#!   TYPE="Tester"
-#!   VERSION="3"
-#!   POSITION="-1609.2977785908922 916.8855837276318"
-#!   BOUNDING_RECT="-1609.2977785908922 916.8855837276318 454 71"
-#!   ORDER="500000000000135"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="PASSED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="FAILED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="Per Output Port"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="CASE_INSENSITIVE_TEST &lt;at&gt;Value&lt;openparen&gt;path_windows&lt;closeparen&gt; CONTAINS donnees_ouvertes"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="CASE_INSENSITIVE_TEST"/>
-#!     <XFORM_PARM PARM_NAME="TEST_PREVIEW_GROUP" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="11"
-#!   TYPE="FeatureReader"
-#!   VERSION="13"
-#!   POSITION="-788.7899391814442 1378.8855837276319"
-#!   BOUNDING_RECT="-788.7899391814442 1378.8855837276319 430 71"
-#!   ORDER="500000000000136"
-#!   PARMS_EDITED="true"
-#!   ENABLED="false"
-#!   LAST_PARM_EDIT="21821"
-#! >
-#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <OUTPUT_FEAT NAME="INITIATOR"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_response_file_path" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_TYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
-#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_CASE_SENSITIVE_FIELD_NAMES" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_CHUNK_SIZE" PARM_VALUE="100000"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_CSV2_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_DATASET_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_DATA_START_LINE" PARM_VALUE="2"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_DATE_INPUT_FORMAT" PARM_VALUE="FME"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_DELIMITER" PARM_VALUE="auto"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_ENCODING" PARM_VALUE="UTF-8"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_ENCODING_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_ENFORCE_STRICT_SCHEMA" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FEATURE_TYPE_NAME" PARM_VALUE="FORMAT_NAME"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELDS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_NAMES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_NAMES_LINE" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_QUALIFIER_CHARACTER" PARM_VALUE="&lt;quote&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER" PARM_VALUE="&lt;quote&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_SEPARATION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_FIELD_VALUES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_PRESERVE_SOURCE_ENCODING" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_PREVIEW_PLACEHOLDER" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_READ_EMPTY_VALUES_AS" PARM_VALUE="Null"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_READ_SKIPPED_LINES" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_REPLACE_ATTR_NAME_INVALID_CHARS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SCAN_ADDITIONAL_FIELDS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SCAN_MAX_ROWS" PARM_VALUE="10000"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SCAN_TYPES" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SCHEMA" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SCHEMA_GENERATION_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SKIPPED_LINES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SKIP_DUPLICATE_DELIMITERS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_STRING_TYPE_ATTRIBUTE_HANDLING" PARM_VALUE="EXPLICIT_WIDTH"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_SUPPORTED_READER_ARCHIVE_EXTENSIONS" PARM_VALUE="csv.gz,txt.gz"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_TRIM_FEATURE_TYPE_NAME" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_TRIM_FIELD_NAME_QUALIFIERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_TRIM_FIELD_NAME_WHITESPACE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_TRIM_FIELD_VALUE_QUALIFIERS" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_TYPE_ATTRIBUTE_HANDLING" PARM_VALUE="STANDARD_TYPES"/>
-#!     <XFORM_PARM PARM_NAME="CSV2_USE_CUSTOM_SCHEMA" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;path_unix&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORCE_REFRESH_OUTPUTS" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="CSV2"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_ATTRIBUTE_TYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="METAFILE,CSV2"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="CSV2_STRING_TYPE_ATTRIBUTE_HANDLING,&quot;OPTIONAL LOOKUP_CHOICE Standard&lt;space&gt;Types,STANDARD_TYPES%Explicit&lt;space&gt;Width&lt;space&gt;and&lt;space&gt;Precision,EXPLICIT_WIDTH&quot;,CSV2&lt;space&gt;String&lt;space&gt;Attribute&lt;space&gt;Type&lt;space&gt;Handling:,CSV2_FIELD_QUALIFIER_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Character:,CSV2_SCHEMA_GENERATION_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%SCAN_MAX_ROWS%SCAN_TYPES%TYPE_ATTRIBUTE_HANDLING%STRING_TYPE_ATTRIBUTE_HANDLING%DATE_INPUT_FORMAT%SCAN_ADDITIONAL_FIELDS&quot;,CSV2&lt;space&gt;Schema&lt;space&gt;Generation,CSV2_SKIPPED_LINES_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%READ_SKIPPED_LINES&quot;,CSV2&lt;space&gt;Skipped&lt;space&gt;Lines,CSV2_DATASET_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%FEATURE_TYPE_NAME&quot;,CSV2&lt;space&gt;Dataset&lt;space&gt;Parameters,CSV2_DATA_START_LINE,&quot;OPTIONAL RANGE_SLIDER 1%MAX%0&quot;,CSV2&lt;space&gt;Data&lt;space&gt;Start&lt;space&gt;Line:,CSV2_ENCODING_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%ENCODING%PRESERVE_SOURCE_ENCODING&quot;,CSV2&lt;space&gt;Encoding,CSV2_FIELDS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_OPEN%DELIMITER%FIELD_NAMES_LINE%DATA_START_LINE&quot;,CSV2&lt;space&gt;Fields,CSV2_FEATURE_TYPE_NAME,&quot;OPTIONAL LOOKUP_CHOICE From&lt;space&gt;Format&lt;space&gt;Name,FORMAT_NAME%From&lt;space&gt;File&lt;space&gt;Name&lt;openparen&gt;s&lt;closeparen&gt;,FILE_NAME&quot;,CSV2&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Name&lt;openparen&gt;s&lt;closeparen&gt;:,CSV2_SCAN_MAX_ROWS,&quot;OPTIONAL INTEGER&quot;,CSV2&lt;space&gt;Maximum&lt;space&gt;Rows&lt;space&gt;to&lt;space&gt;Scan:,CSV2_DATE_INPUT_FORMAT,&quot;OPTIONAL STRING_OR_LOOKUP_CHOICE_ENCODED &quot;&quot;&lt;lt&gt;Auto&lt;space&gt;detect&lt;space&gt;FME&lt;space&gt;and&lt;space&gt;ISO&lt;space&gt;formats&lt;gt&gt;,FME|ISO&quot;&quot;%&quot;&quot;FME&lt;space&gt;&lt;openparen&gt;auto&lt;space&gt;detect&lt;closeparen&gt;,FME&quot;&quot;%&quot;&quot;ISO&lt;space&gt;&lt;openparen&gt;auto&lt;space&gt;detect&lt;closeparen&gt;,ISO&quot;&quot;%&quot;&quot;%Y%m%d&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;FME&lt;space&gt;date&lt;closeparen&gt;,%Y%m%d$&quot;&quot;%&quot;&quot;%H%M%S&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;FME&lt;space&gt;time&lt;closeparen&gt;,%H%M%S$&quot;&quot;%&quot;&quot;%H%M%S%z&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;FME&lt;space&gt;time&lt;space&gt;with&lt;space&gt;offset&lt;closeparen&gt;,%H%M%S%z$&quot;&quot;%&quot;&quot;%Y%m%d%H%M%S&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;FME&lt;space&gt;datetime&lt;closeparen&gt;,%Y%m%d%H%M%S$&quot;&quot;%&quot;&quot;%Y%m%d%H%M%S%z&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;FME&lt;space&gt;datetime&lt;space&gt;with&lt;space&gt;offset&lt;closeparen&gt;,%Y%m%d%H%M%S%z$&quot;&quot;%&quot;&quot;%Y-%m-%d&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;date&lt;closeparen&gt;,%Y-%m-%d$&quot;&quot;%&quot;&quot;%H:%M:%S&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;time&lt;closeparen&gt;,%H:%M:%S$&quot;&quot;%&quot;&quot;%H:%M:%S%Ez&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;time&lt;space&gt;with&lt;space&gt;offset&lt;closeparen&gt;,%H:%M:%S%Ez$&quot;&quot;%&quot;&quot;%Y-%m-%dT%H:%M:%S&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;datetime&lt;closeparen&gt;,%Y-%m-%dT%H:%M:%S$&quot;&quot;%&quot;&quot;%Y-%m-%dT%H:%M:%S%Ez&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;datetime&lt;space&gt;with&lt;space&gt;offset&lt;closeparen&gt;,%Y-%m-%dT%H:%M:%S%Ez$&quot;&quot;%&quot;&quot;%Y-%j&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;ISO&lt;space&gt;ordinal&lt;space&gt;date&lt;closeparen&gt;,%Y-%j$&quot;&quot;%&quot;&quot;%Y:%m:%d&lt;space&gt;%H:%M:%S&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;Exif&lt;space&gt;datetime&lt;closeparen&gt;,%Y:%m:%d%H:%M:%S$&quot;&quot;%&quot;&quot;%d/%m/%Y&lt;dollar&gt;&quot;&quot;%&quot;&quot;%d.%m.%Y&lt;dollar&gt;&quot;&quot;%&quot;&quot;%B&lt;space&gt;%e&lt;comma&gt;&lt;space&gt;%Y&lt;dollar&gt;&quot;&quot;%&quot;&quot;%b-%e-%Y&lt;dollar&gt;&quot;&quot;%&quot;&quot;%I:%M:%S%p&lt;dollar&gt;&quot;&quot;%&quot;&quot;%s&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;Epoch&lt;space&gt;Time&lt;closeparen&gt;,%s$&quot;&quot;%&quot;&quot;%Es&lt;dollar&gt;&lt;space&gt;&lt;openparen&gt;Unzoned&lt;space&gt;Epoch&lt;space&gt;Time&lt;closeparen&gt;,%Es$&quot;&quot;&quot;,CSV2&lt;space&gt;Date&lt;space&gt;Input&lt;space&gt;Format:,CSV2_TYPE_ATTRIBUTE_HANDLING,&quot;OPTIONAL LOOKUP_CHOICE Standard&lt;space&gt;Types,STANDARD_TYPES%Explicit&lt;space&gt;Width&lt;space&gt;and&lt;space&gt;Precision,EXPLICIT_WIDTH&quot;,CSV2&lt;space&gt;Numeric&lt;space&gt;Attribute&lt;space&gt;Type&lt;space&gt;Handling:,CSV2_REPLACE_ATTR_NAME_INVALID_CHARS,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_SCAN_ADDITIONAL_FIELDS,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Scan&lt;space&gt;for&lt;space&gt;Additional&lt;space&gt;Fields:,CSV2_FIELD_NAMES_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%CASE_SENSITIVE_FIELD_NAMES%ENFORCE_STRICT_SCHEMA%TRIM_FIELD_NAME_WHITESPACE&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Names,CSV2_ADVANCED_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%FIELD_SEPARATION_GROUP%FIELD_NAMES_GROUP%FIELD_VALUES_GROUP%ENCODING_GROUP%SKIPPED_LINES_GROUP%SCHEMA_GENERATION_GROUP&quot;,CSV2&lt;space&gt;Advanced,CSV2_TRIM_FEATURE_TYPE_NAME,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_DELIMITER,&quot;OPTIONAL STRING_OR_CHOICE_ENCODED auto%,%;%|%space%tab&quot;,CSV2&lt;space&gt;Delimiter&lt;space&gt;Character:,CSV2_FIELD_QUALIFIER_ESCAPE_CHARACTER,&quot;OPTIONAL STRING_ENCODED&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Escape&lt;space&gt;Character:,CSV2_CSV2_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS CSV2%Source&quot;,CSV2&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,CSV2_SUPPORTED_READER_ARCHIVE_EXTENSIONS,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_SCHEMA,&quot;OPTIONAL GUI_LINE_TABLE NO_MOVE%NO_ADD%NO_LABEL%ROW_DELIM:;%COL_DELIM:,%STRETCH_COL:1%COL_DISPLAY_ORDER:2,0,1%&quot;&quot;Name&quot;&quot;%&quot;&quot;STRING_READONLY_ENCODED ATTRIBUTE_NAME&quot;&quot;%&quot;&quot;Type&quot;&quot;%&quot;&quot;LOOKUP_CHOICE TYPE boolean%int8%int16%int32%int64%uint8%uint16%uint32%uint64%real32%real64%string%x_coordinate%y_coordinate%z_coordinate%date%time%datetime%number%varchar&quot;&quot;%&quot;&quot;Read&quot;&quot;%&quot;&quot;CHECKBOX READ YES%NO&quot;&quot;&quot;,CSV2&lt;space&gt;Attributes:,CSV2_PRESERVE_SOURCE_ENCODING,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Preserve&lt;space&gt;Source&lt;space&gt;Encoding:,CSV2_CASE_SENSITIVE_FIELD_NAMES,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Case&lt;space&gt;Sensitive&lt;space&gt;Field&lt;space&gt;Names:,CSV2_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_CHUNK_SIZE,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;,CSV2_TRIM_FIELD_VALUE_QUALIFIERS,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Trim&lt;space&gt;Field&lt;space&gt;Qualifier&lt;space&gt;Characters:,CSV2_TRIM_FIELD_NAME_WHITESPACE,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Trim&lt;space&gt;Whitespaces&lt;space&gt;From&lt;space&gt;Field&lt;space&gt;Names:,CSV2_ENCODING,&quot;OPTIONAL STRING_OR_ENCODING fme-system%*&quot;,CSV2&lt;space&gt;Character&lt;space&gt;Encoding:,CSV2_USE_CUSTOM_SCHEMA,&quot;OPTIONAL RADIO_GROUP 2%Automatic,NO%Manual,YES&quot;,CSV2&lt;space&gt;Attribute&lt;space&gt;Definition,CSV2_FIELD_NAMES_LINE,&quot;OPTIONAL INT_OR_CHOICE None%1%2%3%4%5&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Names&lt;space&gt;Line:,CSV2_FIELD_VALUES_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%TRIM_FIELD_VALUE_QUALIFIERS%READ_EMPTY_VALUES_AS&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Values,CSV2_SKIP_DUPLICATE_DELIMITERS,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Skip&lt;space&gt;Duplicate&lt;space&gt;Delimiters:,CSV2_READ_EMPTY_VALUES_AS,&quot;OPTIONAL CHOICE Missing%Null&quot;,CSV2&lt;space&gt;Read&lt;space&gt;Empty&lt;space&gt;Values&lt;space&gt;As:,CSV2_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP CSV2_EXPOSE_FORMAT_ATTRS&quot;,CSV2&lt;space&gt;Schema&lt;space&gt;Attributes,CSV2_SCAN_TYPES,&quot;OPTIONAL ACTIVECHOICE Yes%No,TYPE_ATTRIBUTE_HANDLING,STRING_TYPE_ATTRIBUTE_HANDLING,DATE_INPUT_FORMAT&quot;,CSV2&lt;space&gt;Scan&lt;space&gt;for&lt;space&gt;Types:,CSV2_ENFORCE_STRICT_SCHEMA,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Enforce&lt;space&gt;Strict&lt;space&gt;Schema:,CSV2_PREVIEW_PLACEHOLDER,&quot;OPTIONAL GUI_LINE_TABLE NO_LABEL%&quot;&quot;&quot;&quot;%STRING&quot;,CSV2&lt;space&gt;Preview,CSV2_FIELD_SEPARATION_GROUP,&quot;OPTIONAL DISCLOSUREGROUP FME_DISCLOSURE_CLOSED%SKIP_DUPLICATE_DELIMITERS%FIELD_QUALIFIER_CHARACTER%FIELD_QUALIFIER_ESCAPE_CHARACTER&quot;,CSV2&lt;space&gt;Field&lt;space&gt;Separation,CSV2_READ_SKIPPED_LINES,&quot;OPTIONAL CHOICE Yes%No&quot;,CSV2&lt;space&gt;Read&lt;space&gt;Skipped&lt;space&gt;Lines:,CSV2_TRIM_FIELD_NAME_QUALIFIERS,&quot;OPTIONAL NO_EDIT TEXT&quot;,CSV2&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="NONE"/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
 #!   TYPE="AttributeFilter"
@@ -2192,8 +1814,8 @@
 #!   IDENTIFIER="50"
 #!   TYPE="ChangeDetector"
 #!   VERSION="3"
-#!   POSITION="5052.910039332357 -2319.8361297506199"
-#!   BOUNDING_RECT="5052.910039332357 -2319.8361297506199 430 71"
+#!   POSITION="5352.9130393623573 -2460.6538644585794"
+#!   BOUNDING_RECT="5352.9130393623573 -2460.6538644585794 430 71"
 #!   ORDER="500000000000160"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -2259,8 +1881,8 @@
 #!   IDENTIFIER="54"
 #!   TYPE="FeatureJoiner"
 #!   VERSION="1000"
-#!   POSITION="5743.5907511468577 -2067.4921629776186"
-#!   BOUNDING_RECT="5743.5907511468577 -2067.4921629776186 430 71"
+#!   POSITION="6043.5937511768579 -2208.3098976855777"
+#!   BOUNDING_RECT="6043.5937511768579 -2208.3098976855777 430 71"
 #!   ORDER="500000000000167"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -2311,8 +1933,8 @@
 #!   IDENTIFIER="58"
 #!   TYPE="Logger"
 #!   VERSION="4"
-#!   POSITION="5718.2514844208563 -2964.8361297506199"
-#!   BOUNDING_RECT="5718.2514844208563 -2964.8361297506199 659.00106825772946 71"
+#!   POSITION="6018.2544844508566 -3105.6538644585794"
+#!   BOUNDING_RECT="6018.2544844508566 -3105.6538644585794 659.00106825772946 71"
 #!   ORDER="500000000000168"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -2342,8 +1964,8 @@
 #!   IDENTIFIER="60"
 #!   TYPE="AttributeManager"
 #!   VERSION="4"
-#!   POSITION="6386.5963829561242 -1970.8245296346186"
-#!   BOUNDING_RECT="6386.5963829561242 -1970.8245296346186 457.00106825772946 71"
+#!   POSITION="6686.5993829861245 -2111.6422643425776"
+#!   BOUNDING_RECT="6686.5993829861245 -2111.6422643425776 457.00106825772946 71"
 #!   ORDER="500000000000169"
 #!   PARMS_EDITED="true"
 #!   ENABLED="false"
@@ -2369,21 +1991,6 @@
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
-#! <FEAT_LINK
-#!   IDENTIFIER="6"
-#!   SOURCE_NODE="5"
-#!   TARGET_NODE="3"
-#!   SOURCE_PORT_DESC="fo 0 CREATED"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
 #! <FEAT_LINK
 #!   IDENTIFIER="15"
 #!   SOURCE_NODE="13"
@@ -2437,66 +2044,6 @@
 #!   TARGET_PORT_DESC="fi 0 LEFT"
 #!   ENABLED="false"
 #!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="8"
-#!   SOURCE_NODE="2"
-#!   TARGET_NODE="7"
-#!   SOURCE_PORT_DESC="fo 0 File"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="10"
-#!   SOURCE_NODE="2"
-#!   TARGET_NODE="9"
-#!   SOURCE_PORT_DESC="fo 0 File"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="false"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="4"
-#!   SOURCE_NODE="3"
-#!   TARGET_NODE="2"
-#!   SOURCE_PORT_DESC="fo 0 Output"
-#!   TARGET_PORT_DESC="fi 0 Input"
-#!   ENABLED="false"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="12"
-#!   SOURCE_NODE="7"
-#!   TARGET_NODE="11"
-#!   SOURCE_PORT_DESC="fo 0 PASSED"
-#!   TARGET_PORT_DESC="fi 0 INITIATOR"
-#!   ENABLED="false"
-#!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
 #!   COLOUR="0,0,0,1"
 #!   PEN_WIDTH="4"
@@ -2750,389 +2297,6 @@
 #! <ATTR_LINKS>
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
-#! <SUBDOCUMENT
-#!   NAME="ZipExtractor"
-#!   ARCGIS_COMPATIBILITY=""
-#!   CATEGORY="Workflows"
-#!   DESCRIPTION="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Extracts files archived in a zip file, and then outputs features for every extracted file and directory.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Each resulting feature has two attributes storing full path string of an extracted file/directory - &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;path_unix&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;(UNIX style) and &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;path_windows&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;(Windows style), and also has an attribute that indicates the depth of the file/directory in the extracted directory hierarchy - &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;path_depth&quot; &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;(integer starting from 1).&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;The features containing file path will be output through the File port, and the features containing directory path will be output through the Directory port. &lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;All the extracted files will be saved into a subfolder under the folder specified with the &quot;Destination Root Folder&quot; parameter. The subfolder name will be the same as the source zip file name without extension. For example, if the source zip file name is &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;data.zip&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;and the specified root folder path is &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, extracted files will be saved into &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;If the same name folder exists under the specified root folder, a number will be added to the destination subfolder name as suffix to differentiate from the existing folder, by default. e.g. &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data_1&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data_2&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, and so on. &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; font-size:medium; color:#000000;&quot;&gt;If you set &quot;Yes&quot; to the &quot;Replace Existing Destination Subfolder&quot; parameter, the existing subfolder and all files within it will be removed, and then the destination subfolder will be created newly.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; font-size:medium; color:#000000;&quot;&gt;By default, this transformer will NOT unzip zip files that are archived (nested) in the source zip file. If you set &quot;Yes&quot; to the &quot;Unzip Nested Zip Files Recursively&quot; parameter, this transformer unzips all the nested zip files recursively.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;All attributes of the input feature will be propagated to the output features, but the geometry and coordinate system will not be preserved.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;If the specified source zip file or destination root folder is invalid, the input feature will be output through the &amp;lt;Rejected&amp;gt; port.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Note: The Unzipper (FME Hub) can also be used to unzip a zip file. The ZipExtractor may be useful if you need to specify the destination root folder and/or to unzip nested zip file(s).&lt;/span&gt;&#10;&lt;/p&gt;&#10;"
-#!   DOC_DYNAMIC_INPUT_ATTRS="0"
-#!   DOC_EXTENTS="2307.49 404.878"
-#!   DOC_TOP_LEFT="-524 -271.376"
-#!   FME_DOCUMENT_GUID="aa009d4d-1d85-4764-84c3-6ccc000f1720"
-#!   FME_DOCUMENT_PRIORGUID=""
-#!   FME_NAMES_ENCODING="UTF-8"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   FME_PROCESS_GROUP_BY=""
-#!   FME_PROCESS_PRESERVE_GROUP_ATTR="No"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   GUID="aa009d4d-1d85-4764-84c3-6ccc000f1720"
-#!   HISTORY="2016-01-21,Takashi&lt;space&gt;Iijima,Original&lt;space&gt;Implementation,2016-01-23,Takashi&lt;space&gt;Iijima,Updated&lt;space&gt;not&lt;space&gt;to&lt;space&gt;extract&lt;space&gt;non-archive&lt;space&gt;files&lt;space&gt;which&lt;space&gt;are&lt;space&gt;valid&lt;space&gt;as&lt;space&gt;zip.&lt;space&gt;e.g.&lt;space&gt;Excel&lt;space&gt;&lt;openparen&gt;*.xlsx&lt;closeparen&gt;&lt;space&gt;etc.,2016-01-23,Takashi&lt;space&gt;Iijima,Added&lt;space&gt;&lt;quote&gt;Preserve&lt;space&gt;Nested&lt;space&gt;Zip&lt;space&gt;Files&lt;quote&gt;&lt;space&gt;parameter.&lt;space&gt;Added&lt;space&gt;&lt;quote&gt;path_depth&lt;quote&gt;&lt;space&gt;attribute&lt;space&gt;to&lt;space&gt;output&lt;space&gt;features.,2016-01-25,Takashi&lt;space&gt;Iijima,Updated&lt;space&gt;to&lt;space&gt;trim&lt;space&gt;leading&lt;space&gt;and&lt;space&gt;trailing&lt;space&gt;whitespaces&lt;space&gt;of&lt;space&gt;specified&lt;space&gt;path&lt;space&gt;strings.,2018-06-14,Takashi&lt;space&gt;Iijima,Added&lt;space&gt;Allowable&lt;space&gt;Source&lt;solidus&gt;Nested&lt;space&gt;Zip&lt;space&gt;File&lt;space&gt;Extention&lt;openparen&gt;s&lt;closeparen&gt;&lt;space&gt;parameter.,2019-01-13,Takashi&lt;space&gt;Iijima,Fixed&lt;space&gt;the&lt;space&gt;destination&lt;space&gt;folder&lt;space&gt;name&lt;space&gt;derived&lt;space&gt;from&lt;space&gt;zip&lt;space&gt;filename&lt;space&gt;which&lt;space&gt;has&lt;space&gt;non-4-letters&lt;space&gt;suffix&lt;space&gt;&lt;openparen&gt;e.g.&lt;space&gt;&lt;quote&gt;.xlsx&lt;quote&gt;&lt;closeparen&gt;.,2020-01-13,Takashi&lt;space&gt;Iijima,Changed&lt;space&gt;Default&lt;space&gt;Python&lt;space&gt;Interpreter&lt;space&gt;to&lt;space&gt;3.6+&lt;comma&gt;&lt;space&gt;saved&lt;space&gt;with&lt;space&gt;FME&lt;space&gt;2017.1.2.1"
-#!   IS_VISIBLE="false"
-#!   LAST_SAVE_BUILD="FME(R) 2017.1.2.1 (20180117 - Build 17725 - WIN64)"
-#!   LAST_SAVE_DATE="2020-01-13T16:46:42"
-#!   MARKDOWN_DESCRIPTION=""
-#!   MARKDOWN_USAGE=""
-#!   PYTHON_COMPATIBILITY=""
-#!   REPLACED_BY=""
-#!   SUPPRESS_UPGRADE="false"
-#!   TITLE="ZipExtractor"
-#!   USAGE="&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; font-weight:600; color:#0000ff;&quot;&gt;Parameters&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Source Zip File&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Specify a zip file that should be extracted. The zip file name has to end with the extension &quot;.zip&quot; (case insensitive) by default, but optionally, you can also specify any extension(s) which this transformer should attempt to extract as a zip file. See the Allowable Source/Nested Zip File Extensions parameter.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Destination Root Folder&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Specify a folder in which a subfolder containing all extracted files should be created. If you leave this parameter blank, this transformer treats the folder containing the source zip file as the destination root folder.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;All the extracted files will be saved into a subfolder under the root folder. The subfolder name will be the same as the source zip file name without extension. For example, if the source zip file name is &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;data.zip&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;and the specified root folder path is &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, extracted files will be saved into &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Replace Existing Destination Subfolder&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;By default, a number will be added to the destination subfolder name as suffix if the same name folder exists under the spcified root folder. e.g. &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data_1&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, &lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#aa0000;&quot;&gt;&quot;C:\root\data_2&quot;&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;, and so on. If you set &quot;Yes&quot; to this parameter, the existing subfolder and all files within it will be removed, and then the destination subfolder will be created newly. &lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Unzip Nested Zip Files Recursively&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;By default, this transformer will NOT unzip zip files that are archived (nested) in the source zip file. If you set &quot;Yes&quot; to this parameter, this transformer unzips all the nested zip files recursively.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Preserve Nested Zip Files&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;By default, zip files nested in the source zip file will be removed after unzipping them, when the &quot;Unzip Nested Zip Files Recursively&quot; parameter is set to &quot;Yes&quot;. If you set &quot;Yes&quot; to this parameter, the nested zip files will also be preserved.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;This parameter affects the result only when the &quot;Unzip Nested Zip Files Recursively&quot; parameter is set to &quot;Yes&quot;. When the &quot;Unzip Nested Zip Files Recursively&quot; is set to &quot;No&quot;, nested zip files always will be preserved regardless of this parameter.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;; color:#005500;&quot;&gt;Allowable Source/Nested Zip File Extension(s)&lt;/span&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;:&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;By default, this transformer accepts only zip files whose name end with the extension &quot;.zip&quot; (case insensitive). However, if you want to extract zip files with other extension, you can specify allowable extention(s) via these parameters, with space-separated format when specifying two or more.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Here, &quot;Source Zip File&quot; means that the top level zip file which would be set to the Source Zip File parameter; &quot;Nested Zip File&quot;means that internal zip file(s) which have been archived within the source zip file.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;If you leave the parameter field blank (it&apos;s the default), only &quot;.zip&quot; (case insensitive) will be allowable as zip file extension.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;Note that &quot;zip&quot; won&apos;t be allowable if you have set one or more extension other than &quot;.zip&quot; to the parameter. If you want to allow &quot;.zip&quot; and other extension(s) simultaneously, specify all possible extensions including &quot;.zip&quot; with the parameter.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&#10;    &lt;span style=&quot; font-family:&apos;Verdana&apos;;&quot;&gt;The leading dot &quot;.&quot; of extensions can be omitted.&lt;/span&gt;&#10;&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Verdana&apos;;&quot;&gt;&#10;    &lt;br/&gt;&#10;&lt;/p&gt;&#10;"
-#!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="-697.507 152.502"
-#!   XFORM_DEPRECATED="No"
-#!   ZOOM_SCALE="100"
-#! >
-#! <GLOBAL_PARAMETERS>
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI FILENAME_MUSTEXIST_OR_ATTR ZIP_PATH Zip_Files_(*.zip)|*.zip|All_Files_(*.*)|*.* Source Zip File:"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL DIRNAME_OR_ATTR ROOT_FOLDER Destination Root Folder:"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI CHOICE_OR_ATTR REPLACE Yes%No Replace Existing Destination Subfolder:"
-#!   DEFAULT_VALUE="No"
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI CHOICE_OR_ATTR RECURSIVE Yes%No Unzip Nested Zip Files Recursively:"
-#!   DEFAULT_VALUE="No"
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI CHOICE_OR_ATTR PRESERVE Yes%No Preserve Nested Zip Files:"
-#!   DEFAULT_VALUE="No"
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR EXT_S Allowable Source Zip File Extension(s):"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="true"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_OR_ATTR EXT_N Allowable Nested Zip File Extension(s):"
-#!   DEFAULT_VALUE=""
-#!   IS_STAND_ALONE="true"
-#! />
-#! </GLOBAL_PARAMETERS>
-#! <USER_PARAMETERS
-#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImZpbHRlcnMiOlt7ImRlc2NyaXB0aW9uIjoiWmlwIEZpbGVzIiwiZmlsdGVyIjpbIiouemlwIl19LHsiZGVzY3JpcHRpb24iOiJBbGwgRmlsZXMiLCJmaWx0ZXIiOlsiKiJdfV0sIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJaSVBfUEFUSCIsInByb21wdCI6IlNvdXJjZSBaaXAgRmlsZToiLCJyZXF1aXJlZCI6dHJ1ZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6dHJ1ZSwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJhY2Nlc3NNb2RlIjoid3JpdGUiLCJpdGVtc1RvU2VsZWN0IjoiZm9sZGVycyIsIm5hbWUiOiJST09UX0ZPTERFUiIsInByb21wdCI6IkRlc3RpbmF0aW9uIFJvb3QgRm9sZGVyOiIsInJlcXVpcmVkIjpmYWxzZSwic2VsZWN0TXVsdGlwbGUiOmZhbHNlLCJzdXBwb3J0ZWRWYWx1ZVR5cGVzIjpbImV4cHJlc3Npb24iLCJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IlllcyIsInZhbHVlIjoiWWVzIn0seyJkaXNwbGF5IjoiTm8iLCJ2YWx1ZSI6Ik5vIn1dLCJkZWZhdWx0VmFsdWUiOiJObyIsIm5hbWUiOiJSRVBMQUNFIiwicHJvbXB0IjoiUmVwbGFjZSBFeGlzdGluZyBEZXN0aW5hdGlvbiBTdWJmb2xkZXI6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImNob2ljZXMiOlt7ImRpc3BsYXkiOiJZZXMiLCJ2YWx1ZSI6IlllcyJ9LHsiZGlzcGxheSI6Ik5vIiwidmFsdWUiOiJObyJ9XSwiZGVmYXVsdFZhbHVlIjoiTm8iLCJuYW1lIjoiUkVDVVJTSVZFIiwicHJvbXB0IjoiVW56aXAgTmVzdGVkIFppcCBGaWxlcyBSZWN1cnNpdmVseToiLCJyZXF1aXJlZCI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJkcm9wZG93biIsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiY2hvaWNlcyI6W3siZGlzcGxheSI6IlllcyIsInZhbHVlIjoiWWVzIn0seyJkaXNwbGF5IjoiTm8iLCJ2YWx1ZSI6Ik5vIn1dLCJkZWZhdWx0VmFsdWUiOiJObyIsIm5hbWUiOiJQUkVTRVJWRSIsInByb21wdCI6IlByZXNlcnZlIE5lc3RlZCBaaXAgRmlsZXM6IiwicmVxdWlyZWQiOnRydWUsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoiZHJvcGRvd24iLCJ2YWx1ZVR5cGUiOiJzdHJpbmcifSx7ImVkaXRvciI6InBsYWludGV4dCIsIm5hbWUiOiJFWFRfUyIsInByb21wdCI6IkFsbG93YWJsZSBTb3VyY2UgWmlwIEZpbGUgRXh0ZW5zaW9uKHMpOiIsInJlcXVpcmVkIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJleHByZXNzaW9uIiwiZ2xvYmFsUGFyYW1ldGVyIl0sInR5cGUiOiJ0ZXh0IiwidmFsdWVUeXBlIjoic3RyaW5nIn0seyJlZGl0b3IiOiJwbGFpbnRleHQiLCJuYW1lIjoiRVhUX04iLCJwcm9tcHQiOiJBbGxvd2FibGUgTmVzdGVkIFppcCBGaWxlIEV4dGVuc2lvbihzKToiLCJyZXF1aXJlZCI6ZmFsc2UsInN1cHBvcnRlZFZhbHVlVHlwZXMiOlsiZXhwcmVzc2lvbiIsImdsb2JhbFBhcmFtZXRlciJdLCJ0eXBlIjoidGV4dCIsInZhbHVlVHlwZSI6InN0cmluZyJ9XX0="
-#! >
-#! <PARAMETER_INFO>
-#!     <INFO NAME="EXT_N" IS_STAND_ALONE="true" />
-#!     <INFO NAME="EXT_S" IS_STAND_ALONE="true" />
-#!     <INFO NAME="PRESERVE" IS_STAND_ALONE="true" />
-#!     <INFO NAME="RECURSIVE" IS_STAND_ALONE="true" />
-#!     <INFO NAME="REPLACE" IS_STAND_ALONE="true" />
-#!     <INFO NAME="ROOT_FOLDER" IS_STAND_ALONE="true" />
-#!     <INFO NAME="ZIP_PATH" IS_STAND_ALONE="true" />
-#! </PARAMETER_INFO>
-#! </USER_PARAMETERS>
-#! <COMMENTS>
-#! </COMMENTS>
-#! <CONSTANTS>
-#! </CONSTANTS>
-#! <BOOKMARKS>
-#! </BOOKMARKS>
-#! <TRANSFORMERS>
-#! <TRANSFORMER
-#!   IDENTIFIER="6"
-#!   TYPE="ParameterFetcher"
-#!   VERSION="4"
-#!   POSITION="46.999699999999997 -49"
-#!   BOUNDING_RECT="46.999699999999997 -49 0 0"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="15575"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.zip_path" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.root_folder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.replace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.recursive" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.preserve" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.ext_s" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.ext_n" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="__unzipper.zip_path {$(ZIP_PATH)} __unzipper.root_folder {$(ROOT_FOLDER)} __unzipper.replace {$(REPLACE)} __unzipper.recursive {$(RECURSIVE)} __unzipper.preserve {$(PRESERVE)} __unzipper.ext_s {$(EXT_S)} __unzipper.ext_n {$(EXT_N)}"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ParameterFetcher"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="7"
-#!   TYPE="PythonCaller"
-#!   VERSION="4"
-#!   POSITION="590.125 -49"
-#!   BOUNDING_RECT="590.125 -49 0 0"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17725"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE="__unzipper.ext_n __unzipper.zip_path __unzipper.ext_s __unzipper.replace __unzipper.recursive __unzipper.root_folder __unzipper.preserve"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="path_unix path_windows path_depth __unzipper.flag _error_message"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE" PARM_VALUE="#&lt;space&gt;2016-01-21&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Original&lt;space&gt;Implementation&lt;lf&gt;#&lt;space&gt;2016-01-23&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Updated:&lt;lf&gt;#&lt;space&gt;-&lt;space&gt;added&lt;space&gt;function&lt;space&gt;to&lt;space&gt;check&lt;space&gt;file&lt;space&gt;extension&lt;space&gt;to&lt;space&gt;prevent&lt;space&gt;extracting&lt;space&gt;non-archiver&lt;space&gt;zip&lt;space&gt;files.&lt;space&gt;e.g.&lt;space&gt;Excel&lt;space&gt;&lt;openparen&gt;*.xlsx&lt;closeparen&gt;&lt;space&gt;etc.&lt;lf&gt;#&lt;space&gt;-&lt;space&gt;added&lt;space&gt;codes&lt;space&gt;to&lt;space&gt;create&lt;space&gt;desitnation&lt;space&gt;root&lt;space&gt;folder&lt;space&gt;if&lt;space&gt;it&lt;space&gt;is&lt;space&gt;specified&lt;space&gt;but&lt;space&gt;doesn&lt;apos&gt;t&lt;space&gt;exist.&lt;lf&gt;#&lt;space&gt;-&lt;space&gt;added&lt;space&gt;option&lt;space&gt;to&lt;space&gt;preserve&lt;space&gt;nested&lt;space&gt;zip&lt;space&gt;files&lt;space&gt;after&lt;space&gt;unzipping&lt;space&gt;them.&lt;lf&gt;#&lt;space&gt;-&lt;space&gt;added&lt;space&gt;&lt;quote&gt;path_depth&lt;quote&gt;&lt;space&gt;attribute&lt;space&gt;to&lt;space&gt;output&lt;space&gt;features.&lt;lf&gt;#&lt;space&gt;2016-01-25&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Updated&lt;space&gt;to&lt;space&gt;trim&lt;space&gt;leading&lt;space&gt;and&lt;space&gt;trailing&lt;space&gt;whitespaces&lt;space&gt;of&lt;space&gt;specified&lt;space&gt;path&lt;space&gt;strings.&lt;lf&gt;#&lt;space&gt;2018-06-14&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Added&lt;space&gt;Allowable&lt;space&gt;Source&lt;solidus&gt;Nested&lt;space&gt;Zip&lt;space&gt;File&lt;space&gt;Extention&lt;openparen&gt;s&lt;closeparen&gt;&lt;space&gt;parameter.&lt;lf&gt;#&lt;space&gt;2019-01-13&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Fixed&lt;space&gt;the&lt;space&gt;destination&lt;space&gt;folder&lt;space&gt;name&lt;space&gt;derived&lt;space&gt;from&lt;space&gt;zip&lt;space&gt;filename&lt;space&gt;which&lt;space&gt;has&lt;space&gt;non-4-letters&lt;space&gt;suffix&lt;space&gt;&lt;openparen&gt;e.g.&lt;space&gt;&lt;quote&gt;.xlsx&lt;quote&gt;&lt;closeparen&gt;.&lt;lf&gt;#&lt;space&gt;2020-01-13&lt;comma&gt;&lt;space&gt;Takashi&lt;space&gt;Iijima&lt;comma&gt;&lt;space&gt;Changed&lt;space&gt;Default&lt;space&gt;Python&lt;space&gt;Interpreter&lt;space&gt;to&lt;space&gt;3.6+&lt;comma&gt;&lt;space&gt;saved&lt;space&gt;with&lt;space&gt;FME&lt;space&gt;2017.1.2.1&lt;lf&gt;&lt;lf&gt;import&lt;space&gt;fmeobjects&lt;comma&gt;&lt;space&gt;zipfile&lt;comma&gt;&lt;space&gt;os&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;ZipExtractor&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.logger&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.kFlagFile&lt;space&gt;=&lt;space&gt;&lt;apos&gt;file&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.kFlagDirectory&lt;space&gt;=&lt;space&gt;&lt;apos&gt;directory&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.kFlagReject&lt;space&gt;=&lt;space&gt;&lt;apos&gt;reject&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.kFlagTerminate&lt;space&gt;=&lt;space&gt;&lt;apos&gt;terminate&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.zipExtS&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;&lt;openbracket&gt;&lt;apos&gt;.zip&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;space&gt;#&lt;space&gt;Filename&lt;space&gt;extensions&lt;space&gt;source&lt;space&gt;&lt;openparen&gt;root&lt;closeparen&gt;&lt;space&gt;zip&lt;space&gt;files&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.zipExtN&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;&lt;openbracket&gt;&lt;apos&gt;.zip&lt;apos&gt;&lt;closebracket&gt;&lt;closeparen&gt;&lt;space&gt;#&lt;space&gt;Filename&lt;space&gt;extensions&lt;space&gt;for&lt;space&gt;archived&lt;space&gt;&lt;openparen&gt;descendant&lt;closeparen&gt;&lt;space&gt;zip&lt;space&gt;files&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Returns&lt;space&gt;the&lt;space&gt;number&lt;space&gt;of&lt;space&gt;characters&lt;space&gt;of&lt;space&gt;the&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;extension&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;if&lt;space&gt;the&lt;space&gt;path&lt;space&gt;points&lt;space&gt;a&lt;space&gt;valid&lt;space&gt;zip&lt;space&gt;file&lt;comma&gt;&lt;space&gt;0&lt;space&gt;otherwise.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;zipExtLen&lt;openparen&gt;self&lt;comma&gt;&lt;space&gt;path&lt;comma&gt;&lt;space&gt;zipExt&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;_&lt;comma&gt;&lt;space&gt;ext&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;path&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;space&gt;len&lt;openparen&gt;ext&lt;closeparen&gt;&lt;space&gt;if&lt;space&gt;&lt;openparen&gt;ext.lower&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;in&lt;space&gt;zipExt&lt;space&gt;and&lt;space&gt;zipfile.is_zipfile&lt;openparen&gt;path&lt;closeparen&gt;&lt;closeparen&gt;&lt;space&gt;else&lt;space&gt;0&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;&lt;space&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Retrieve&lt;space&gt;parameter&lt;space&gt;values&lt;space&gt;from&lt;space&gt;feature&lt;space&gt;attributes&lt;comma&gt;&lt;space&gt;then&lt;space&gt;remove&lt;space&gt;the&lt;space&gt;attributes.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Zip&lt;space&gt;path&lt;space&gt;may&lt;space&gt;end&lt;space&gt;with&lt;space&gt;a&lt;space&gt;path&lt;space&gt;separator&lt;space&gt;if&lt;space&gt;extracted&lt;space&gt;by&lt;space&gt;the&lt;space&gt;FilenamePartExtractor&lt;space&gt;as&lt;space&gt;&lt;quote&gt;_dirpath&lt;quote&gt;.&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zipPath&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.zip_path&lt;apos&gt;&lt;closeparen&gt;.strip&lt;openparen&gt;&lt;closeparen&gt;.rstrip&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;&lt;backslash&gt;&lt;solidus&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;rootFolder&lt;space&gt;=&lt;space&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.root_folder&lt;apos&gt;&lt;closeparen&gt;.strip&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;replace&lt;space&gt;=&lt;space&gt;&lt;openparen&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.replace&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;&lt;apos&gt;Yes&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.recursive&lt;space&gt;=&lt;space&gt;&lt;openparen&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.recursive&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;&lt;apos&gt;Yes&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.preserve&lt;space&gt;=&lt;space&gt;&lt;openparen&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.preserve&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;&lt;apos&gt;Yes&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;extS&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.ext_s&lt;apos&gt;&lt;closeparen&gt;.split&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;extN&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;feature.getAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.ext_n&lt;apos&gt;&lt;closeparen&gt;.split&lt;openparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.removeAttrsWithPrefix&lt;openparen&gt;&lt;apos&gt;__unzipper.&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;extS:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.zipExtS&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;&lt;openbracket&gt;&lt;openparen&gt;e&lt;space&gt;if&lt;space&gt;e.startswith&lt;openparen&gt;&lt;apos&gt;.&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;else&lt;space&gt;&lt;openparen&gt;&lt;apos&gt;.%s&lt;apos&gt;&lt;space&gt;%&lt;space&gt;e&lt;closeparen&gt;&lt;closeparen&gt;.lower&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;for&lt;space&gt;e&lt;space&gt;in&lt;space&gt;extS&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;extN:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.zipExtN&lt;space&gt;=&lt;space&gt;set&lt;openparen&gt;&lt;openbracket&gt;&lt;openparen&gt;e&lt;space&gt;if&lt;space&gt;e.startswith&lt;openparen&gt;&lt;apos&gt;.&lt;apos&gt;&lt;closeparen&gt;&lt;space&gt;else&lt;space&gt;&lt;openparen&gt;&lt;apos&gt;.%s&lt;apos&gt;&lt;space&gt;%&lt;space&gt;e&lt;closeparen&gt;&lt;closeparen&gt;.lower&lt;openparen&gt;&lt;closeparen&gt;&lt;space&gt;for&lt;space&gt;e&lt;space&gt;in&lt;space&gt;extN&lt;closebracket&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;If&lt;space&gt;destination&lt;space&gt;root&lt;space&gt;folder&lt;space&gt;is&lt;space&gt;specified&lt;space&gt;but&lt;space&gt;doesn&lt;apos&gt;t&lt;space&gt;exist&lt;comma&gt;&lt;space&gt;try&lt;space&gt;creating&lt;space&gt;the&lt;space&gt;directory.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;isRootValid&lt;space&gt;=&lt;space&gt;True&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;rootFolder&lt;space&gt;and&lt;space&gt;not&lt;space&gt;os.path.exists&lt;openparen&gt;rootFolder&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.makedirs&lt;openparen&gt;rootFolder&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;isRootValid&lt;space&gt;=&lt;space&gt;False&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;If&lt;space&gt;specified&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;or&lt;space&gt;destination&lt;space&gt;root&lt;space&gt;folder&lt;space&gt;is&lt;space&gt;invalid&lt;comma&gt;&lt;space&gt;reject&lt;space&gt;the&lt;space&gt;input&lt;space&gt;feature.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;not&lt;space&gt;os.path.exists&lt;openparen&gt;zipPath&lt;closeparen&gt;&lt;space&gt;&lt;backslash&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;or&lt;space&gt;self.zipExtLen&lt;openparen&gt;zipPath&lt;comma&gt;&lt;space&gt;self.zipExtS&lt;closeparen&gt;&lt;space&gt;==&lt;space&gt;0&lt;space&gt;&lt;backslash&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;or&lt;space&gt;not&lt;space&gt;isRootValid:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;msg&lt;space&gt;=&lt;space&gt;&lt;apos&gt;Specified&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;or&lt;space&gt;destination&lt;space&gt;root&lt;space&gt;folder&lt;space&gt;is&lt;space&gt;invalid.&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.logger.logMessageString&lt;openparen&gt;msg&lt;comma&gt;&lt;space&gt;fmeobjects.FME_ERROR&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;_error_message&lt;apos&gt;&lt;comma&gt;&lt;space&gt;msg&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.flag&lt;apos&gt;&lt;comma&gt;&lt;space&gt;self.kFlagReject&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;return&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Define&lt;space&gt;destination&lt;space&gt;folder&lt;space&gt;path:&lt;space&gt;&lt;lt&gt;root&lt;space&gt;folder&lt;gt&gt;&lt;solidus&gt;&lt;lt&gt;source&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;name&lt;space&gt;without&lt;space&gt;extension&lt;gt&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;If&lt;space&gt;root&lt;space&gt;folder&lt;space&gt;is&lt;space&gt;not&lt;space&gt;specified&lt;comma&gt;&lt;space&gt;treat&lt;space&gt;the&lt;space&gt;folder&lt;space&gt;containing&lt;space&gt;source&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;as&lt;space&gt;root&lt;space&gt;folder.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zipPath&lt;space&gt;=&lt;space&gt;os.path.abspath&lt;openparen&gt;zipPath&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;zipFolder&lt;comma&gt;&lt;space&gt;zipName&lt;space&gt;=&lt;space&gt;os.path.split&lt;openparen&gt;zipPath&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;rootName&lt;comma&gt;&lt;space&gt;_&lt;space&gt;=&lt;space&gt;os.path.splitext&lt;openparen&gt;zipName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;destFolder&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;os.path.abspath&lt;openparen&gt;rootFolder&lt;closeparen&gt;&lt;space&gt;if&lt;space&gt;rootFolder&lt;space&gt;else&lt;space&gt;zipFolder&lt;comma&gt;&lt;space&gt;rootName&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;If&lt;space&gt;the&lt;space&gt;destination&lt;space&gt;folder&lt;space&gt;exists&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;-&lt;space&gt;remove&lt;space&gt;the&lt;space&gt;existing&lt;space&gt;folder&lt;space&gt;and&lt;space&gt;all&lt;space&gt;files&lt;space&gt;within&lt;space&gt;it&lt;space&gt;when&lt;space&gt;REPLACE&lt;space&gt;is&lt;space&gt;set&lt;space&gt;to&lt;space&gt;Yes&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;-&lt;space&gt;add&lt;space&gt;suffix&lt;space&gt;to&lt;space&gt;the&lt;space&gt;folder&lt;space&gt;path&lt;space&gt;when&lt;space&gt;REPLACE&lt;space&gt;is&lt;space&gt;set&lt;space&gt;to&lt;space&gt;No.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.exists&lt;openparen&gt;destFolder&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;replace:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;dirpath&lt;comma&gt;&lt;space&gt;dirs&lt;comma&gt;&lt;space&gt;files&lt;space&gt;in&lt;space&gt;os.walk&lt;openparen&gt;destFolder&lt;comma&gt;&lt;space&gt;topdown=False&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;name&lt;space&gt;in&lt;space&gt;files:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;os.path.join&lt;openparen&gt;dirpath&lt;comma&gt;&lt;space&gt;name&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;name&lt;space&gt;in&lt;space&gt;dirs:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.rmdir&lt;openparen&gt;os.path.join&lt;openparen&gt;dirpath&lt;comma&gt;&lt;space&gt;name&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.rmdir&lt;openparen&gt;destFolder&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;format&lt;comma&gt;&lt;space&gt;n&lt;space&gt;=&lt;space&gt;&lt;apos&gt;%s_%d&lt;apos&gt;&lt;comma&gt;&lt;space&gt;1&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;while&lt;space&gt;os.path.exists&lt;openparen&gt;format&lt;space&gt;%&lt;space&gt;&lt;openparen&gt;destFolder&lt;comma&gt;&lt;space&gt;n&lt;closeparen&gt;&lt;closeparen&gt;:&lt;space&gt;n&lt;space&gt;+=&lt;space&gt;1&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;destFolder&lt;space&gt;=&lt;space&gt;format&lt;space&gt;%&lt;space&gt;&lt;openparen&gt;destFolder&lt;comma&gt;&lt;space&gt;n&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Extract&lt;space&gt;the&lt;space&gt;zip&lt;space&gt;file&lt;space&gt;and&lt;space&gt;output&lt;space&gt;features&lt;space&gt;containing&lt;space&gt;extracted&lt;space&gt;file&lt;solidus&gt;directory&lt;space&gt;path.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pathInfos&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;closebracket&gt;&lt;space&gt;#&lt;space&gt;tuples&lt;space&gt;list&lt;space&gt;-&lt;space&gt;&lt;openparen&gt;file&lt;space&gt;or&lt;space&gt;directory&lt;space&gt;path&lt;comma&gt;&lt;space&gt;flag:&lt;space&gt;&lt;apos&gt;file&lt;apos&gt;&lt;space&gt;or&lt;space&gt;&lt;apos&gt;directory&lt;apos&gt;&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.extract&lt;openparen&gt;zipPath&lt;comma&gt;&lt;space&gt;destFolder&lt;comma&gt;&lt;space&gt;1&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;path&lt;comma&gt;&lt;space&gt;flag&lt;comma&gt;&lt;space&gt;depth&lt;space&gt;in&lt;space&gt;self.pathInfos:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feat&lt;space&gt;=&lt;space&gt;feature.cloneAttributes&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feat.setAttribute&lt;openparen&gt;&lt;apos&gt;path_unix&lt;apos&gt;&lt;comma&gt;&lt;space&gt;path.replace&lt;openparen&gt;&lt;apos&gt;&lt;backslash&gt;&lt;backslash&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;solidus&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feat.setAttribute&lt;openparen&gt;&lt;apos&gt;path_windows&lt;apos&gt;&lt;comma&gt;&lt;space&gt;path.replace&lt;openparen&gt;&lt;apos&gt;&lt;solidus&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;&lt;backslash&gt;&lt;backslash&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feat.setAttribute&lt;openparen&gt;&lt;apos&gt;path_depth&lt;apos&gt;&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feat.setAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.flag&lt;apos&gt;&lt;comma&gt;&lt;space&gt;flag&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feat&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;ex:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;msg&lt;space&gt;=&lt;space&gt;&lt;apos&gt;Unexpected&lt;space&gt;error:&lt;space&gt;%s&lt;apos&gt;&lt;space&gt;%&lt;space&gt;ex&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.logger.logMessageString&lt;openparen&gt;msg&lt;comma&gt;&lt;space&gt;fmeobjects.FME_ERROR&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;_error_message&lt;apos&gt;&lt;comma&gt;&lt;space&gt;msg&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;feature.setAttribute&lt;openparen&gt;&lt;apos&gt;__unzipper.flag&lt;apos&gt;&lt;comma&gt;&lt;space&gt;self.kFlagTerminate&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pyoutput&lt;openparen&gt;feature&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Extract&lt;space&gt;a&lt;space&gt;zip&lt;space&gt;file.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;extract&lt;openparen&gt;self&lt;comma&gt;&lt;space&gt;zipPath&lt;comma&gt;&lt;space&gt;destPath&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;with&lt;space&gt;zipfile.ZipFile&lt;openparen&gt;zipPath&lt;closeparen&gt;&lt;space&gt;as&lt;space&gt;z:&lt;space&gt;z.extractall&lt;openparen&gt;destPath&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.findFiles&lt;openparen&gt;destPath&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#&lt;space&gt;Find&lt;space&gt;and&lt;space&gt;collect&lt;space&gt;extracted&lt;space&gt;file&lt;solidus&gt;directory&lt;space&gt;paths.&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;findFiles&lt;openparen&gt;self&lt;comma&gt;&lt;space&gt;dirPath&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pathInfos.append&lt;openparen&gt;&lt;openparen&gt;dirPath&lt;comma&gt;&lt;space&gt;self.kFlagDirectory&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;depth&lt;space&gt;+=&lt;space&gt;1&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;fname&lt;space&gt;in&lt;space&gt;os.listdir&lt;openparen&gt;dirPath&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;path&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;dirPath&lt;comma&gt;&lt;space&gt;fname&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;os.path.isdir&lt;openparen&gt;path&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.findFiles&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;elif&lt;space&gt;self.recursive:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;n&lt;space&gt;=&lt;space&gt;self.zipExtLen&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;self.zipExtN&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;n&lt;space&gt;!=&lt;space&gt;0:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;self.preserve:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pathInfos.append&lt;openparen&gt;&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;self.kFlagFile&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.extract&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;os.path.join&lt;openparen&gt;dirPath&lt;comma&gt;&lt;space&gt;fname&lt;openbracket&gt;:-n&lt;closebracket&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.extract&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;os.path.join&lt;openparen&gt;dirPath&lt;comma&gt;&lt;space&gt;fname&lt;openbracket&gt;:-n&lt;closebracket&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;path&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pathInfos.append&lt;openparen&gt;&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;self.kFlagFile&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;self.pathInfos.append&lt;openparen&gt;&lt;openparen&gt;path&lt;comma&gt;&lt;space&gt;self.kFlagFile&lt;comma&gt;&lt;space&gt;depth&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="ZipExtractor"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCaller"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="8"
-#!   TYPE="AttributeFilter"
-#!   VERSION="4"
-#!   POSITION="1126.8599999999999 -49"
-#!   BOUNDING_RECT="1126.8599999999999 -49 0 0"
-#!   ORDER="500000000000000"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="15573"
-#! >
-#!     <OUTPUT_FEAT NAME="file"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="directory"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="reject"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="terminate"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <OUTPUT_FEAT NAME="&lt;EMPTY&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="4"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <OUTPUT_FEAT NAME="&lt;MISSING&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="5"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <OUTPUT_FEAT NAME="&lt;NULL&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="6"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="6" />
-#!     <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="7"/>
-#!     <XFORM_ATTR ATTR_NAME="path_unix" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="__unzipper.flag" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_ATTR ATTR_NAME="_error_message" IS_USER_CREATED="false" FEAT_INDEX="7" />
-#!     <XFORM_PARM PARM_NAME="ATTR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_NAME" PARM_VALUE="__unzipper.flag"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES" PARM_VALUE="file,directory,reject,terminate,&lt;lt&gt;EMPTY&lt;gt&gt;,&lt;lt&gt;MISSING&lt;gt&gt;,&lt;lt&gt;NULL&lt;gt&gt;,&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_VALUES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeFilter"/>
-#! </TRANSFORMER>
-#! </TRANSFORMERS>
-#! <SUBDOCUMENT_IOS>
-#! <SUBDOCUMENT_IO
-#!   IDENTIFIER="2"
-#!   NAME="Input"
-#!   POSITION="-524 -67"
-#!   BOUNDING_RECT="-524 -67 0 0"
-#!   COLLAPSED="true"
-#!   PUBLISHED="true"
-#!   IS_SOURCE="true"
-#!   ATTR_MODE="0"
-#! >
-#! </SUBDOCUMENT_IO>
-#! <SUBDOCUMENT_IO
-#!   IDENTIFIER="3"
-#!   NAME="File"
-#!   POSITION="1783.49 133.50200000000001"
-#!   BOUNDING_RECT="1783.49 133.50200000000001 0 0"
-#!   COLLAPSED="true"
-#!   IS_SOURCE="false"
-#!   ATTR_MODE="1"
-#! >
-#!     <XFORM_ATTR ATTR_NAME="path_unix" ATTR_TYPE="buffer" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" ATTR_TYPE="buffer" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" ATTR_TYPE="buffer" />
-#! </SUBDOCUMENT_IO>
-#! <SUBDOCUMENT_IO
-#!   IDENTIFIER="4"
-#!   NAME="&lt;Rejected&gt;"
-#!   POSITION="1783.49 -271.37599999999998"
-#!   BOUNDING_RECT="1783.49 -271.37599999999998 0 0"
-#!   COLLAPSED="true"
-#!   IS_SOURCE="false"
-#!   ATTR_MODE="1"
-#! >
-#!     <XFORM_ATTR ATTR_NAME="_error_message" ATTR_TYPE="buffer" />
-#! </SUBDOCUMENT_IO>
-#! <SUBDOCUMENT_IO
-#!   IDENTIFIER="5"
-#!   NAME="Directory"
-#!   POSITION="1783.49 -67"
-#!   BOUNDING_RECT="1783.49 -67 0 0"
-#!   COLLAPSED="true"
-#!   IS_SOURCE="false"
-#!   ATTR_MODE="1"
-#! >
-#!     <XFORM_ATTR ATTR_NAME="path_unix" ATTR_TYPE="buffer" />
-#!     <XFORM_ATTR ATTR_NAME="path_windows" ATTR_TYPE="buffer" />
-#!     <XFORM_ATTR ATTR_NAME="path_depth" ATTR_TYPE="buffer" />
-#! </SUBDOCUMENT_IO>
-#! </SUBDOCUMENT_IOS>
-#! <FEAT_LINKS>
-#! <FEAT_LINK
-#!   IDENTIFIER="9"
-#!   SOURCE_NODE="2"
-#!   TARGET_NODE="6"
-#!   SOURCE_PORT_DESC="0"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="10"
-#!   SOURCE_NODE="6"
-#!   TARGET_NODE="7"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="11"
-#!   SOURCE_NODE="7"
-#!   TARGET_NODE="8"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="12"
-#!   SOURCE_NODE="8"
-#!   TARGET_NODE="3"
-#!   SOURCE_PORT_DESC="fo 0 file"
-#!   TARGET_PORT_DESC="0"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="13"
-#!   SOURCE_NODE="8"
-#!   TARGET_NODE="5"
-#!   SOURCE_PORT_DESC="fo 1 directory"
-#!   TARGET_PORT_DESC="0"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="14"
-#!   SOURCE_NODE="8"
-#!   TARGET_NODE="4"
-#!   SOURCE_PORT_DESC="fo 2 reject"
-#!   TARGET_PORT_DESC="0"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="15"
-#!   SOURCE_NODE="8"
-#!   TARGET_NODE="4"
-#!   SOURCE_PORT_DESC="fo 3 terminate"
-#!   TARGET_PORT_DESC="0"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   COLOUR="0,0,0,1"
-#!   PEN_WIDTH="4"
-#!   PEN_STYLE="1"
-#!   LINK_STYLE_NAME="&lt;Default&gt;"
-#!   EXTRA_POINTS=""
-#! />
-#! </FEAT_LINKS>
-#! <BREAKPOINTS>
-#! </BREAKPOINTS>
-#! <ATTR_LINKS>
-#! </ATTR_LINKS>
-#! </SUBDOCUMENT>
 #! </SUBDOCUMENTS>
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
@@ -3641,30 +2805,6 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV_CSV2_1 Splitter"    INPUT FEATURE_
 FACTORY_DEF * TeeFactory    FACTORY_NAME "CSV_CSV2_2 Splitter"    INPUT FEATURE_TYPE CSV      multi_reader_keyword $(DATASET_KEYWORD_CSV2_2)    OUTPUT FEATURE_TYPE CSV_CSV2_2
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Creator_CREATED Disabled Nuker -1 6"   INPUT FEATURE_TYPE Creator_CREATED
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller (Disabled) Nuker"   INPUT FEATURE_TYPE Creator_CREATED
-FACTORY_DEF * TeeFactory   FACTORY_NAME "HTTPCaller_Output Disabled Nuker -1 4"   INPUT FEATURE_TYPE HTTPCaller_Output
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME HTTPCaller_<Rejected> INPUT FEATURE_TYPE HTTPCaller_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTTPCaller<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ZipExtractor (Disabled) Nuker"   INPUT FEATURE_TYPE HTTPCaller_Output
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ZipExtractor_File_0_Yz0UunpUXMk= Disabled Nuker -1 8"   INPUT FEATURE_TYPE ZipExtractor_File_0_Yz0UunpUXMk=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "ZipExtractor_File_1_0jo7f55/k3A= Disabled Nuker -1 10"   INPUT FEATURE_TYPE ZipExtractor_File_1_0jo7f55/k3A=
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME ZipExtractor_<Rejected> INPUT FEATURE_TYPE ZipExtractor_<Rejected>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ZipExtractor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester (Disabled) Nuker"   INPUT FEATURE_TYPE ZipExtractor_File_0_Yz0UunpUXMk=
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_PASSED Disabled Nuker -1 12"   INPUT FEATURE_TYPE Tester_PASSED
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader (Disabled) Nuker"   INPUT FEATURE_TYPE Tester_PASSED
-DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_2 (Disabled) Nuker"   INPUT FEATURE_TYPE ZipExtractor_File_1_0jo7f55/k3A=
-# -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeFilter }    INPUT  FEATURE_TYPE CSV_CSV2_1    INPUT  FEATURE_TYPE CSV_CSV2_2    OUTPUT { FEATURE_TYPE AttributeFilter_FILTER }
 FACTORY_DEF {*} AttributeFilterFactory FACTORY_NAME AttributeFilter_Filter COMMAND_PARM_EVALUATION SINGLE_PASS INPUT FEATURE_TYPE AttributeFilter_FILTER FILTER_ATTRIBUTE { longitude } FILTER_VALUES { <lt>EMPTY<gt> <lt>MISSING<gt> <lt>NULL<gt> <lt>UNFILTERED<gt> -1 } PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT OUTPUT <lt>EMPTY<gt> FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt> OUTPUT <lt>MISSING<gt> FEATURE_TYPE AttributeFilter_<lt>MISSING<gt> OUTPUT <lt>NULL<gt> FEATURE_TYPE AttributeFilter_<lt>NULL<gt> OUTPUT <lt>UNFILTERED<gt> FEATURE_TYPE AttributeFilter_<lt>UNFILTERED<gt> OUTPUT -1 FEATURE_TYPE AttributeFilter_-1
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeFilter <lt>EMPTY<gt> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeFilter_<lt>EMPTY<gt>
@@ -3698,7 +2838,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeManager_3_OUTPUT Disabled Nuke
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureJoiner_3__Rejected_ (Disabled) Nuker"   INPUT FEATURE_TYPE FeatureJoiner_3_<REJECTED>
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {FeatureJoiner_2__Rejected__fa135d09_7c3e_468a_ad80_163d76b14a703} ]
+INCLUDE [ FME_CleanseFMEUUID {FeatureJoiner_2__Rejected__fa135d09_7c3e_468a_ad80_163d76b14a704} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is
@@ -3709,7 +2849,7 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { FeatureJoiner_2__Rejected__Logger }
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureJoiner_2__Rejected_ LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE FeatureJoiner_2__Rejected__LOGGED
 # -------------------------------------------------------------------------
 # Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
-INCLUDE [ FME_CleanseFMEUUID {FeatureJoiner__Rejected__44f75e9a_46f8_4bf0_be70_56e965cee6a53} ]
+INCLUDE [ FME_CleanseFMEUUID {FeatureJoiner__Rejected__44f75e9a_46f8_4bf0_be70_56e965cee6a54} ]
 # If the Logger was in a custom transformer, the custom transformer's name was not being
 # properly logged -- instead we saw "$(<customXformerName_WORKSPACE_NAME)" being logged as the prefix of the
 # message. By deferencing and expanding out the XFORMER_NAME below, and then "WWJD" encoding it when it is

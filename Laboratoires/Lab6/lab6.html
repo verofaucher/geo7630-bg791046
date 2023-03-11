@@ -1,19 +1,21 @@
 <!doctype html>
+
 <body>
-<div id="menu">
-<div id="boite">
-<h1>TEST</h1>
-<h2>TEST</h2>
-<div id=bouton1>
-<button>Charger données</button>
-</div>
-<div id=bouton2>
-<button>Zoomer données</button>
-</div>
-<div id=bouton2>
-<button>Colorier</button>
-</div>
-</div>
-</div>
   <div id="map"></div>
-</body> 
+  <div id="menu">
+    <div id="boite">
+      <h1>Titre</h1>
+      <h2>Sous-titre</h2>
+      <div id=bouton1>
+        <input type="file" id="file" name="file"
+          accept="application/geo+json,application/vnd.geo+json,.geojson,application/json" />
+      </div>
+      <div id=bouton2>
+        <button id=zoomto>Zoomer données</button>
+      </div>
+      <div id=bouton3>
+        <button id=colorier>Colorier</button>
+      </div>
+    </div>
+  </div>
+</body>

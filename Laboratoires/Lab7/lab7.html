@@ -1,0 +1,38 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css"  />
+  <link rel="stylesheet" type="text/css" href="./lab7.css"  />
+  <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/geojson-extent@0.3.2/geojson-extent.min.js"></script>
+</head>
+
+
+<body>
+  <div id="map"></div>
+
+  <div id="menu">
+    <div id="boite">
+      
+      <h1>Titre</h1>
+      <h2>Sous-titre</h2>
+      
+      <div id=bouton1>
+        <input type="text" id="wms" name="wms" />
+        <button id=loadWMS>Charger WMS</button>
+      </div>
+
+      <div id=bouton2>
+        <input type="text" id="wfs" name="wfs" />
+        <button id=loadWFS>Charger WFS</button>
+      </div>
+
+      <div id=bouton3>
+        <button id=colorier>Colorier</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script type='text/javascript' src="./lab7.js"></script>

@@ -98,7 +98,7 @@ function colorPolygons () {
     // L'objet map expose une methode qui permet de changer les proprietes esthetiques d'un layer
     // setPaintProperty(identifiant du layer, propriete a changer, valeur de la propriete que vous voulez donner)
     // Documentation : https://docs.mapbox.com/mapbox-gl-js/api/map/#map#setpaintproperty
-    map.setPaintProperty("geojson", "fill-color", "#9f40ff")
+    map.setPaintProperty("geojson", "fill-color", randomColor())
 }
 
 // Ici on va initialiser l'evenement qui se passe lorsqu'on clique sur un bouton

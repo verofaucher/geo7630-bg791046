@@ -39,6 +39,9 @@ services:
       - INSTALL_EXTENSIONS=true
       - STABLE_EXTENSIONS="PGRaster"
       volumes:
+      - ./web.xml:/usr/local/tomcat/webapps/geoserver/WEB-INF/web.xml
       - ../Laboratoires/Lab7/geoserverData:/var/geoserver/datadir
+      # - ./catalina.xml:/usr/local/tomcat/conf/web.xml
+      restart: always
 volumes:
   pgdata:

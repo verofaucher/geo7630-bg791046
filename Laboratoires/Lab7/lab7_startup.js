@@ -25,8 +25,6 @@ var WFSConfig = [
     }
 ]
 
-var WFSurl = encodeURI('http://localhost:8080/geoserver/geo7630/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=geo7630:analyse_bixi_par_station&outputFormat=application/json')
-
 var loadWFS = function () {
 
     const baseUrl = "http://localhost:8080/geoserver/geo7630/ows?"

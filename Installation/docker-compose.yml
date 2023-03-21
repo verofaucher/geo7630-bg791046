@@ -33,6 +33,7 @@ services:
   #   restart: always
   geoserver:
       image: geosolutionsit/geoserver
+      user: root
       ports:
       - 8080:8080
       environment:

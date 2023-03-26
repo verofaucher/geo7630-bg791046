@@ -1,0 +1,6 @@
+version: "3.4"
+services:
+  ogr:
+    image: ghcr.io/osgeo/gdal:alpine-small-latest
+    volumes:
+      - ./data:/data

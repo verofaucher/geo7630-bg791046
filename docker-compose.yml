@@ -43,14 +43,20 @@ services:
       - ./Laboratoires/Lab7/geoserverData:/var/geoserver/datadir
       # - ./catalina.xml:/usr/local/tomcat/conf/web.xml
       restart: always
-  server:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
+  # server:
+  #   build:
+  #     context: ./
+  #     dockerfile: ./Dockerfile
+  #   ports:
+  #     - 80:8001
+  #   volumes:
+  #     - ./:/app
+  server-web:
+    image: nginx
     ports:
-      - 80:8001
+      - 8000:80
     volumes:
-      - ./:/app
+      - ./:/usr/share/nginx/html
 volumes:
   pgdata:
     name: installation_pgdata

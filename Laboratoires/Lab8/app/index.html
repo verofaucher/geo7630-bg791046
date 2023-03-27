@@ -1,0 +1,32 @@
+<!doctype html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css"  />
+  <link rel="stylesheet" type="text/css" href="./app.css"  />
+  <script src="https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+</head>
+
+
+<body>
+  <div id="map"></div>
+
+  <div id="menu">
+    <div id="boite">
+      
+      <h1>Charger des couches depuis un serveur local</h1>
+      <h2>WFS et WMS</h2>
+      
+      <div id=bouton1>
+        <button id=filterGarage>Filtrer les garages</button>
+      </div>
+
+      <div id=bouton2>
+        <button id=loadWFS>Charger WFS</button>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+<script type='text/javascript' src="./app.js"></script>

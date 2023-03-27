@@ -32,6 +32,12 @@ services:
     depends_on:
     - "pg_lab8"
     restart: always
+  server-web:
+    image: nginx
+    ports:
+      - 8000:80
+    volumes:
+      - ./:/usr/share/nginx/html
 volumes:
   pgdata:
     name: installation_pgdata

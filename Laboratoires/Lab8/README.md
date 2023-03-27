@@ -1,0 +1,2 @@
+ - 1 : `docker compose run --rm ogr ogr2ogr -f "ESRI Shapefile" /data/a_garage.shp /data/garage.geojson`
+ - 2 : `docker compose run --rm ogr ogr2ogr -f PostgreSQL PG:"dbname='geo7630' host='172.19.0.1' port='8433' user='admin_geo' password='password'" ./data/garage.geojson -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI -nln geo7630.garage_labo_8 -overwrite`

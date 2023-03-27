@@ -40,6 +40,7 @@ var WFSConfig = [
     }
 ]
 
+// Fonction qui ecoute l'evenement de fin de chargement de la carte au demarrage de l'app
 // ajout des sources et des couches de la carte
 map.on('load', function () {
     // ajout de la source des garages

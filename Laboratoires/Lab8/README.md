@@ -20,9 +20,13 @@ Jump to a series of locations | MapLibre GL JS Docs	8
 
 Charger les données geojson dans la BD
 
-docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.analyse_bixi_par_station  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/geo7630.analyse_bixi_par_station.geojson
+- sudo docker compose up -d
+- valider que tous les containers roulent dans la baleine
+- charger les données avec les 2 commandes suivantes
+    
+    docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.analyse_bixi_par_station  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/geo7630.analyse_bixi_par_station.geojson
 
-docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.garage_lab_8  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/garage.geojson
+    docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.garage_lab_8  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/garage.geojson
 
 Ajouter une couche de tuiles vectorielles (pg_tileserv)
 // ajout des sources et des couches de la carte

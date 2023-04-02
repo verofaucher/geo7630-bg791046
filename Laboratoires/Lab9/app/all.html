@@ -71,57 +71,98 @@
 
     <div id="menu">
 
-      <h1 id="titre">Laboratoire 9</h1>
-      <div id="boite"> 
+      <h1 id="titre">Analyse spatiale</h1>
+      <div id="boite">
 
-      <div class="input-group mb-3">
-        <input id="randomInput" type="text" class="form-control" placeholder="Max 10 000"
-          aria-describedby="basic-addon2" value=1000>
-        <div class="input-group-append">
-          <button id="generateRandomPoints" class="btn btn-dark" type="button">GO</button>
+        <h2>Random points</h2>
+
+        <div class="input-group mb-3">
+          <input id="randomInput" type="text" class="form-control" placeholder="Max 10 000"
+            aria-describedby="basic-addon2" value=1000>
+          <div class="input-group-append">
+            <button id="generateRandomPoints" class="btn btn-dark" type="button">GO</button>
+          </div>
         </div>
-      </div>
-    </div>
 
-      <div id="boite"> 
-        <h4>Clusters</h4>
+      </div>
+   
+       <div id="boite">
+
+        <h2>Calcul de distance</h2>
+
         <div class="input-group mb-3">
           <div class="input-group-append">
-            <button id="generateClusters" class="btn btn-dark" type="button">Generate Clusters</button>
+            <button id="calculateDistance" class="btn btn-dark" type="button">Calculez la distance</button>
+          </div>
+        </div>
+
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Résultat </span>
+          </div>
+          <input id="distanceResult" disabled placeholder="" type="text" class="form-control" aria-label="Small"
+            aria-describedby="inputGroup-sizing-sm">
+        </div>
+
+      </div>
+      <div id="boite">
+
+        <h2>Buffering</h2>
+
+        <div class="input-group mb-3">
+          <input id="radiusInput" type="text" class="form-control" placeholder="Entrez un radius"
+            aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button id="buffer" class="btn btn-dark" type="button">GO</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="boite">
+        <h2>Geoprocessing</h2>
+        <div class="input-group mb-3">
+          <select class="custom-select" id="inputGroupSelect03">
+            <option value="1">Dissolve</option>
+            <option value="2">Grids</option>
+            <option value="3">Spatial join</option>
+          </select>
+          <div class="input-group-prepend">
+            <button id="union" class="btn btn-dark" type="button">GO</button>
           </div>
         </div>
       </div>
 
-      <div id="boite"> 
-        <h4>Heatmap</h4>
-        <div class="input-group mb-3">
-          <div class="input-group-append">
-            <button id="generateHeatmap" class="btn btn-dark" type="button">Generate Clusters</button>
+      <div id="boite">
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Qté à l'écran</span>
           </div>
+          <input id="featureCount" disabled placeholder="" type="text" class="form-control" aria-label="Small"
+            aria-describedby="inputGroup-sizing-sm">
         </div>
       </div>
-
-      <div id="boite"> 
-        <h4>3D</h4>
-        <div class="input-group mb-3">
-          <div class="input-group-append">
-            <button id="generate3D" class="btn btn-dark" type="button">Generate 3D</button>
+      <div id="boite">
+        <div class="input-group input-group-sm mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Densité moyenne</span>
           </div>
+          <input id="kpi" disabled placeholder="" type="text" class="form-control" aria-label="Small"
+            aria-describedby="inputGroup-sizing-sm">
         </div>
       </div>
-
-      <!-- <div id="boite"> 
-        <h4>Heatmap</h4>
+      <div id="boite"> 
+        <h4>Nombre de points</h4>
+        <label for="customRange1" class="form-label">200</label>
+        <input type="range" class="form-range" id="customRange1">
+        <label for="customRange1" class="form-label">25000</label>
+      </div>
+      <div id="boite"> 
+        <h4>Grid size</h4>
         <label for="customRange1" class="form-label">400</label>
         <input type="range" class="form-range" id="customRange1">
         <label for="customRange1" class="form-label">600</label>
       </div> 
-      <div id="boite"> 
-        <h4>Heatmap</h4>
-        <label for="customRange1" class="form-label">400</label>
-        <input type="range" class="form-range" id="customRange1">
-        <label for="customRange1" class="form-label">600</label>
-      </div>  -->
     </div>
 
     <div id="menu2">
@@ -142,7 +183,7 @@
 
 
       </div>
-    </div>Clusters
+    </div>
 
   </main>
 
@@ -165,11 +206,12 @@
   <script type='text/javascript' src="./app.js"></script>
   <script type='text/javascript' src="./modules/layerHandler.js"></script>
   <script type='text/javascript' src="./modules/dynamicCount.js"></script>
+  <script type='text/javascript' src="./modules/union.js"></script>
   <script type='text/javascript' src="./modules/randomPoints.js"></script>
+  <script type='text/javascript' src="./modules/calculateDistance.js"></script>
+  <script type='text/javascript' src="./modules/buffering.js"></script>
+  <script type='text/javascript' src="./modules/spatialJoin.js"></script>
   <script type='text/javascript' src="./modules/clusters.js"></script>
-  <script type='text/javascript' src="./modules/heatmap.js"></script>
-  <script type='text/javascript' src="./modules/gridMaker.js"></script>
-  <script type='text/javascript' src="./modules/3D.js"></script>
 
   <!-- ================================================== -->
 

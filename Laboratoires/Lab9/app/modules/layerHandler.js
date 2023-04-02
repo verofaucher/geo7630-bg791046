@@ -1,6 +1,5 @@
 function removeAllLayersAndSources() {
     var allSources = map.getStyle().sources;
-    console.log(allSources)
     myLayers.forEach(function (layerName) {
         // Supprimer la couche de la carte
         if (map.getLayer(layerName)) {

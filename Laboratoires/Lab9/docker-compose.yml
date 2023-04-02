@@ -1,45 +1,8 @@
 version: "3.4"
 services:
-  pg_lab8:
-    image: "postgis/postgis:14-3.3"
-    ports:
-    - 8434:5432
-    environment: 
-    - POSTGRES_PASSWORD=password
-    volumes:
-    - ./create_postgres_stack.sql:/docker-entrypoint-initdb.d/create_postgres_stack.sql
-    - pgdata:/var/lib/postgresql/data
-    restart: always
-  ogr:
-    image: ghcr.io/osgeo/gdal:alpine-small-latest
-    volumes:
-      - ./data:/data
-  pg_tileserv:
-    image: "pramsey/pg_tileserv:latest"
-    ports:
-    - 8801:7800
-    environment:
-    - DATABASE_URL=postgresql://admin_geo:password@pg_lab8/geo7630
-    depends_on:
-    - "pg_lab8"
-    restart: always
-  pg_featureserv:
-    image: "pramsey/pg_featureserv:latest"
-    ports:
-    - 9000:9000
-    environment:
-    - DATABASE_URL=postgresql://admin_geo:password@pg_lab8/geo7630
-    depends_on:
-    - "pg_lab8"
-    restart: always
   server-web:
     image: nginx
     ports:
       - 8000:80
     volumes:
-      - ./:/usr/share/nginx/html
-volumes:
-  pgdata:
-    name: installation_pgdata
-    external: true
-     
+      - ./:/usr/share/nginx/html     

@@ -38,7 +38,6 @@ function loadRandomPointsLayer() {
     })
 }
 
-
 document
     .getElementById('resetMap')
     .addEventListener('click', removeAllLayersAndSources);

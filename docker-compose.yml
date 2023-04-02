@@ -5,10 +5,10 @@ services:
     ports:
     - 8433:5432
     environment: 
-    - POSTGRES_PASSWORD=${SUPERUSERPASS}
+    - POSTGRES_PASSWORD=password
     volumes:
     - ./create_postgres_stack.sql:/docker-entrypoint-initdb.d/create_postgres_stack.sql
-    - pgdata:/var/lib/postgresql/data
+    - alexis:/var/lib/postgresql/data
     restart: always
   pg_tileserv:
     image: "pramsey/pg_tileserv:latest"
@@ -49,5 +49,4 @@ services:
     volumes:
       - ./:/usr/share/nginx/html
 volumes:
-  pgdata:
-    name: installation_pgdata
+  alexis:

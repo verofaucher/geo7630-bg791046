@@ -1,3 +1,4 @@
+const numPoints = 10000;
 function generateRandomPoints(numPoints) {
     // Define the bounds of the Island of Montreal
     const bounds = [-73.990959, 45.410154, -73.467327, 45.705839];
@@ -15,3 +16,26 @@ function generateRandomPoints(numPoints) {
   
     return featureCollection;
   }
+  const randomPoints = generateRandomPoints(numPoints);
+  function loadRandomPointsLayer() {
+    removeAllLayersAndSources()
+    map.addSource('rdp-source', {
+        type: "geojson",
+        data: randomPoints
+    })
+    map.addLayer({
+        'id': 'rdp',
+        'type': 'circle',
+        'source': 'rdp-source',
+        'paint': {
+            'circle-radius': {
+                'base': 1.75,
+                'stops': [
+                    [12, 2],
+                    [22, 180]
+                ]
+            },
+        }
+    })
+}
+

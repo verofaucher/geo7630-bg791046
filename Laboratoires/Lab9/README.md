@@ -11,7 +11,18 @@
 
 
 # **- Pull upstream du dépôt
-- Avoir suivi le cours 12 pour la théorie sur la création des modules et l’architecture applicative**
+
+- Avoir suivi le cours 12 pour la théorie sur la création des modules et l’architecture applicative
+
+- Assurez vous que tous les containers Docker sont bien éteints
+
+- dans un terminal  : \`cd Laboratoires/Lab9/\`
+
+- dans le même terminal : \`sudo docker compose up -d\`![](https://lh4.googleusercontent.com/EusKWBkxyhzi8okKRgmkeh1Of4sf2xdocDWby9-DXhaUKmBFGYZkEegTDecsvjP84G6ScT4ldFZrwTpKsRJUtcMx_oNngf4lwZop9W-u1nnU3O1FZCIpueel82hhubrnNUVjN31rpDUrtwZ5EUlRows)
+
+- Assurez vous que votre environnement local est up and running en allant sur : 
+
+  - http&#x3A;//localhost:8000/app/Laboratoire9.html![](https://lh3.googleusercontent.com/RRoU2R3wT2mXBxaoGfV2MI2QEJzaGQQEBBGTrTES6od3tsoRQyHJE5kSgdvxH36u5YuD_2X0z_UOuoWKDVIpXr4Bz4-0cdeNdWxJ9ZgZITDTQo75IaHnt3ePCruuLmZTDx-T2nsrUati1bFkjmG9YrU)**
 
 
 ## Créer et styliser des clusters

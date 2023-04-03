@@ -1,189 +1,70 @@
-Laboratoire 8 - GEO 7630
+# Laboratoire cours 12
 
-Webmapping avancé
-
-
-Ajouter une couche de tuiles vectorielles (pg_tileserv)	2
-Ajouter une couche WFS (pg_featureserv)	3
-Contrôle de carte	4
-Filtrer	6
-Événement souris	6
-Popup	6
-JumpTo	8
-Jump to a series of locations | MapLibre GL JS Docs	8
+  
 
 
+[**Laboratoire cours 12**** ****1**](https://docs.google.com/document/d/13q-uzrJ22Hj56a0R4qr49xpgBpia7aAEsGNXsmDc5I0/edit#heading=h.6xp8lo9ezpif)
+
+[**Créer et styliser des clusters**** ****2**](https://docs.google.com/document/d/13q-uzrJ22Hj56a0R4qr49xpgBpia7aAEsGNXsmDc5I0/edit#heading=h.86zhcmbby4fa)
+
+[**Créer et styliser une carte de chaleur (heatmap)**** ****3**](https://docs.google.com/document/d/13q-uzrJ22Hj56a0R4qr49xpgBpia7aAEsGNXsmDc5I0/edit#heading=h.t1qmum80efu0)
+
+[**Créer et visualiser une couche de polygones extrudées**** ****4**](https://docs.google.com/document/d/13q-uzrJ22Hj56a0R4qr49xpgBpia7aAEsGNXsmDc5I0/edit#heading=h.16o8i8abd4lp)
+
+[**Ajouter du terrain 3D à une carte MLGL**** ****5**](https://docs.google.com/document/d/13q-uzrJ22Hj56a0R4qr49xpgBpia7aAEsGNXsmDc5I0/edit#heading=h.z1lgyicu07ur)
 
 
+## 
 
 
-
-Charger les données geojson dans la BD
-
-- sudo docker compose up -d
-- valider que tous les containers roulent dans la baleine
-- charger les données avec les 2 commandes suivantes
-    
-    docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.analyse_bixi_par_station  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/geo7630.analyse_bixi_par_station.geojson
-
-    docker compose run --rm ogr ogr2ogr -f PostgreSQL -lco GEOMETRY_NAME=geom -lco FID=gid -lco SPATIAL_INDEX=GIST -nlt PROMOTE_TO_MULTI  -nln geo7630.garage_lab_8  -t_srs EPSG:3857  -overwrite PG:"dbname='geo7630' host='172.19.0.1' port='8434' user='admin_geo' password='password'"  ./data/garage.geojson
-
-Ajouter une couche de tuiles vectorielles (pg_tileserv)
-// ajout des sources et des couches de la carte
-map.on('load', function () {
-    // ajout de la source des garages
-    map.addSource('garage-source', {
-        type: 'vector', // type de source
-        tiles: ['http://localhost:8801/geo7630.garage_labo_8/{z}/{x}/{y}.pbf'] // URL des tuiles vectorielles
-    })
-    // ajout de la couche des garages avec filtre
-    map.addLayer({
-        'id': 'garage', // identifiant de la couche
-        'type': 'fill', // type de géométrie de la couche
-        'source': 'garage-source', // source des données de la couche
-        'source-layer': 'geo7630.garage_labo_8', // source des données de la couche, majoritairement nomduschema.nomdelatable
-    })
-});
+## 
 
 
-Ajouter une couche WFS (pg_featureserv)
-// Simple fonction qui ajoute une couche WFS depuis pgFeatureServ
-function loadWFS() {
-    // ajout de la source des garages
-    map.addSource('bixi-source', {
-        type: 'geojson', // type de source
-        data: 'http://localhost:9000/collections/geo7630.analyse_bixi_par_station/items.json?limit=10000' // URL pg_featureserv geojson
-    })
-    // ajout de la couche des garages
-    map.addLayer({
-        'id': 'bixi', // identifiant de la couche
-        'type': 'circle', // type de géométrie de la couche
-        'source': 'bixi-source', // source des données de la couche
-        'paint': {
-            'circle-color': [
-                'interpolate', // methode interpolation
-                ['linear'], // type d'interpolation
-                ['get', 'end_total_count'], // choisir props
-                100,
-                'blue',
-                300,
-                'royalblue',
-                600,
-                'cyan',
-                1000,
-                'lime',
-                2000,
-                'yellow',
-                3000,
-                'red'
-            ]
-        }
-    })
-}
+## Créer et styliser des clusters
 
+[Create and style clusters](https://maplibre.org/maplibre-gl-js-docs/example/cluster/)
 
-Contrôle de carte
+1. Créez un nouveau module javascript \`clusters.js\` pour générer une couche de cluster
+2. Dans ce module ajoutez une nouvelle fonction : **\`function generateClusters() { }\`**
+3. Dans la fonction commencez par nettoyer les layers existants avec la fonctionnalité déjà en place : **\`removeAllLayersAndSources()\`**
+4. Dans le module app.js  ajoutez une nouvelle source geojson qui comprend la propriété **\`CLUSTER:TRUE\`** comme dans l’exemple mapbox
+5. La propriété **\`data\`** dans la configuration **addLayer **doit référer à la variable **\`randomPoints\`** du module javascript **\`randomPoints.js\`**
+6. Une fois terminé, ajoutez le **“listener”** pour exécuter cette fonction lors du click sur le bouton
+7. Le **&lt;button>** id du bouton se nomme : **\`'generateClusters'\`**
+8. N’oubliez pas d’ajouter la source du module javascript dans le fichier html **laboratoire9.html**
 
-Markers and controls | MapLibre GL JS Docs
-
-Ajoutez un contrôle de Navigation
-Ajoutez un contrôle de Géolocalisation
-Ajoutez un contrôle d’échelle
+![](https://lh5.googleusercontent.com/5YdsJlwK5IC5CPbTHCDE7rsawbINeA1DUR_YRXRjGEEC6sX4Cae82dGcIOKsCubiu1m9GVl5h6hYtDnPOPL8CLnz_uixAXhrnsYFrTQ-OS3AMKrRdGw1_fkVAUflzGC6qaA2OIRdNpuWiq_6E2lSvvE)
 
 
 
 
-    var nav = new maplibregl.NavigationControl({
-        showCompass:true,
-        showZoom:true,
-        visualizePitch:true
-    });
-    map.addControl(nav,'top-right');
-   
-    var geolocateControl =new maplibregl.GeolocateControl({
-        positionOptions: {
-        enableHighAccuracy: true
-        },
-        trackUserLocation: true
-        })
-   
-    map.addControl(geolocateControl,'bottom-right');
-   
-    var scale = new maplibregl.ScaleControl({
-        unit: 'metric'
-        });
-           
-    map.addControl(scale);
+## 
 
 
-Filtrer
-Statiquement à la source
-Map | MapLibre GL JS Docs propriété filter
+## Créer et styliser une carte de chaleur (heatmap)
 
-    map.addLayer({
-        'id': 'garage', // identifiant de la couche
-        'type': 'fill', // type de géométrie de la couche
-        'source': 'garage-source', // source des données de la couche
-        'source-layer': 'geo7630.garage_labo_8', // source des données de la couche, majoritairement nomduschema.nomdelatable
-        'filter': ['==', ['get', 'operator_id'], 2]
-    })
+1. Créez un nouveau module javascript **\`heatmap.js\`**
+2. Sur la même forme que le module précédent ajoutez un** bouton HTML** à la page **Laboratoire9.html** donnez un identifiant à ce bouton : **\`generateHeatmap\`**
+3. Ajoutez une source et un layer de type **heatmap**, suivez l’exemple Maplibre
+4. N’oubliez pas d’ajouter la **source du module** dans laboratoire9.html![](https://lh3.googleusercontent.com/Gn8b6N2DLydAHRL_cU3F5Sx9hmp43wi2hCmNE2KbLtO2GOc0OGi4ZXqnDl5_YDgqks69Tzu5DRoHCBuXLtjCzSGnzQ0N8E1zZQsRSwlyKkWN6g00MjBExI8HcOE02pyPye8guQZqNzZtaZPq69KN-Do)
 
+[Create a heatmap layer](https://maplibre.org/maplibre-gl-js-docs/example/heatmap-layer/)
 
-Dynamiquement avec un bouton
-Map | MapLibre GL JS Docs
-
-function filterGarage() {
-map.setFilter('garage', ['>', ['get', 'operator_id'], 2]);
-}
-
-Événement souris
-Display a popup on click | MapLibre GL JS Docs
-
-Ajouter la librairie TURFJS dans le fichier app.HTML pour avoir accès aux fonctions TurfsJS pour calculer le centroide d’un polygone
+<https://blog.mapbox.com/introducing-heatmaps-in-mapbox-gl-js-71355ada9e6c>
 
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js"></script>
+## Créer et visualiser une couche de polygones extrudées
+
+1. Créez un nouveau module javascript **\`3D.js\`**
+2. Sur la même forme que le module précédent ajoutez un bouton HTML à la page **Laboratoire9.html** donnez un identifiant à ce bouton : **\`generate3D\`**
+3. Ajoutez une source et un layer de type **\`fill-extrusion\`**, suivez l’exemple Maplibre
+4. N’oubliez pas d’ajouter la **source du module** dans laboratoire9.html
+
+![](https://lh6.googleusercontent.com/eNaHlYsreDwUPYlBap5xU4zW-0RD2Fo8i4bynq5pXwII_xjxxrTmKtRKC1ANCA3_dESiCYChw9Nw2Wg5w50ESzAfTtBES7DVHVVXxseL5c29jcPIgE-eWy01m5iKHkVOQEntw_iHYh-lMMEYbM_Z8yQ)
+
+[Display buildings in 3D](https://maplibre.org/maplibre-gl-js-docs/example/3d-buildings/)
 
 
+## Ajouter du terrain 3D à une carte MLGL
 
-map.on('click', 'garage', function (e) {
-    var coordinates = turf.centroid(e.features[0]) // calcul des coordonnées du centre de la géométrie cliquée
-    console.log(coordinates)	
-});
-
-Popup
-Display a popup on click | MapLibre GL JS Docs
-
-Ajoutez dans une variable le texte à montrer dans la popup
-Puis instanciez un nouveau maplibrePopUp() avec les propriétés
-de setLngLat
-de setHTML
-et ajoutez le à la carte
-
-
-map.on('click', 'garage', function (e) {
-    var coordinates = turf.centroid(e.features[0]) // calcul des coordonnées du centre de la géométrie cliquée
-
-
-    var description = e.features[0].properties.adresse; // récupération de l'adresse du garage cliqué
-
-
-    // création d'une popup pour afficher l'adresse
-    new maplibregl.Popup()
-        .setLngLat(coordinates.geometry.coordinates) // position de la popup sur le centre de la géométrie cliquée
-        .setHTML(description) // contenu HTML de la popup
-        .addTo(map); // ajout de la popup à la carte
-});
-JumpTo
-	Jump to a series of locations | MapLibre GL JS Docs
-
-Dans la fonction map.onClick() ajouter : 
-
-    // Fonction de map qui permet de se deplacer sur une coordonnees et un niveau de zoom
-    map.jumpTo({
-        center: coordinates.geometry.coordinates,
-        zoom: 13
-    });
-
-
-
+[3D Terrain](https://maplibre.org/maplibre-gl-js-docs/example/3d-terrain/) - Laboratoire cours 13

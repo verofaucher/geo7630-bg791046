@@ -32,9 +32,7 @@ function generateClusters() {
                 20,
                 40,
                 40,
-                document
-                  .getElementById('generate3D')
-                  .addEventListener('click', generate3D)
+                60
                 ]
             }                
     });

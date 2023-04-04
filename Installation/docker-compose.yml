@@ -40,7 +40,7 @@ services:
       - STABLE_EXTENSIONS="PGRaster"
       volumes:
       - ./web.xml:/usr/local/tomcat/webapps/geoserver/WEB-INF/web.xml
-      - ./Laboratoires/Lab7/geoserverData:/var/geoserver/datadir
+      - ../Laboratoires/Lab7/geoserverData:/var/geoserver/datadir
       restart: always
   server-web:
     image: nginx

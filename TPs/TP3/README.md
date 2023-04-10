@@ -1,45 +1,23 @@
-# TP3 - Développement d’une application web et diffusion des données de type POC avec la suite ESRI AGOL
+Véronique Faucher							        11 avril 2023
+Intégration et visualisation de données
+TP3 – Rapport explicatif
 
-  
+Impact de l’agrile du frêne sur la canopée montréalaise (Partie 3)
+URL pour accéder à l’application :
+https://www.arcgis.com/apps/dashboards/b610ada8702d4d468c4d25e20c668910
+	L’intention de ce travail consiste à sensibiliser à la thématique à l’étude par la manipulation d’une application utilisant l’interface Dashboards d’ArcGIS Online (AGOL). Au cours de son expérience, l’usager peut témoigner du manque de diversité arboricole ainsi que de la gestion de la ville de Montréal face à l’infestation d’agrile du frêne en consultant les différentes données reliées à la proportion de frênes abattus et traités sur le total des arbres du domaine public. 
 
+Importation des couches vers AGOL
+Au terme du géotraitement exécuté dans de l’environnement de travail de FME Workbench dans le cadre du travail précédent (voir TP2-README.md), la marche à suivre était de transmettre directement les couches traitées vers AGOL à l’aide d’un outil exportateur (Writer) configuré à cet effet. Suite aux nombreux échecs de cette opération, toutes les couches ont alors été exportées vers un format shapefile (shp), pour être corrigées dans ArcGIS Pro puis redirigées vers AGOL. 
 
-L’objectif est de vous familiariser avec les outils d’intégration et de visualisation de la suite ESRI pour produire une preuve de concept (PoC - Proof of Concept) d’une application cartographique dynamique, intuitive et vivante (données qui se mettent à jour)
+Affichage des éléments vectoriels et matriciels
+Étant donné les outils d’agrégation disponibles par AGOL, l’affichage des couches de densités produites lors du traitement dans FME ne trouvent par de pertinence quant au regroupement des informations partagées. Elles ne sont donc pas affichées dans l’application.  
+L’importation de l’image aérienne a nécessité un travail manuel quant à sa mise à l’échelle et sa géolocalisation. À l’instar des couches traitées, son exportation vers AGOL depuis FME était impossible.  L’image choisie correspond à la localisation de la tuile LiDAR 292-5045, celle-ci également importée manuellement. 
 
-- Depuis FME lire les données de la BD et les envoyer dans AGOL
-- Créer une ou plusieurs visualisation avancées
-- Intégrer ces visualisations dans une interface Dashboard ou Experience Builder
-- Lier les données à des widgets interactifs
-- Étudier l’expérience usager et le geodesign
-- Préparer un canvas pour un développement d’application plus “personnalisé” avec des outils open source
-
-
-## Prérequis pour le TP3
-
-- Compte AGOL
-- FME
-
-
-## Consignes 
-
-1. Le TP3 doit être remis sous la forme d’une URL d’application (DB ou EB) 
-2. Une documentation dans votre dépôt Github sous le répertoire TP/TP3/README.md
-3. Dans la documentation il faudra décrire vos intentions d’expérience usager et décrire les buts de vos “widgets”
-4. Une URL publique qui ne nécessite pas de nom d’usager et mot de passe pour y accéder
-5. Intégrer le vectoriel, matriciel et le 2.5D
-6. Des Indicateurs de performance (KPIs) dynamiques en fonction de la navigation et des filtres cartographiques
-7. Un processus d’import et de mise à jour de vos données\* (\*facultatif) 
+Widgets et affichage du 2.5d
+L’usage du diagramme à secteur s’avère un moyen efficace de représentation étant donné l’objectif d’informer l’usager des proportions ciblées.  Un premier diagramme a été réalisé afin de visualiser le pourcentage de frênes publics parmi la totalité d’arbres montréalais et un second démontrant son taux d’abattage de frênes. 
+Des jauges dynamiques ont également été implantées en ce qui concerne les quantités d’arbres abattus et traités. Les quantités montrées par les jauges évoluent en fonction des rapprochements et éloignements par rapport à la carte afin de consulter l’information concernée uniquement par ce secteur. 
+En raison de l’impossibilité d’afficher la composante 2.5d par l’outil Dashboards, les extractions des données LiDAR correspondant aux frênes (voir TP2-README.md) ont été ajoutées à l’application par l’intermédiaire de l’interface Experience Builder d’AGOL depuis sa visualisation en mode Scene,
 
 
-## Grille d’évaluation
 
-1. Respect des consignes :  **10%**
-2. Visualisation 2D : **5%**
-3. Visualisation 2.5D : ** 5%**
-4. Visualisation matricielle :** 5%**
-5. Pertinence des KPIs (au minimum 2 KPIs dynamiques) : **10%**
-6. Dynamique et animation des données :** 10%**
-7. Respect des bonnes pratiques UI/UX: **10%**
-8. Respect des bonnes pratiques sémiologiques:**10%**
-9. Processus d’import des données : **10%**
-10. Pertinence globale de l’application en fonction de la thématique choisie: **20%**
-11. Documentation : **5%**

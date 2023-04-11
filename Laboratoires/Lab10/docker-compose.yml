@@ -1,24 +1,8 @@
 version: "3.4"
 services:
-  # pg:
-  #   image: "postgis/postgis:14-3.3"
-  #   ports:
-  #   - 8433:5432
-  #   environment: 
-  #   - POSTGRES_PASSWORD=password
-  #   volumes:
-  #   - ./create_postgres_stack.sql:/docker-entrypoint-initdb.d/create_postgres_stack.sql
-  #   - alexis:/var/lib/postgresql/data
-  #   restart: always
   itowns: 
     build: .
     ports:
       - 8080:8080
-  # server-web:
-  #   image: nginx
-  #   ports:
-  #     - 8000:80
-  #   volumes:
-  #     - ./:/usr/share/nginx/html
-volumes:
-  alexis:
+    volumes:
+      - ./examples/:/itowns/examples

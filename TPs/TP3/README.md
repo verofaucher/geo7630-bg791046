@@ -17,7 +17,7 @@ L’importation de l’image aérienne a nécessité un travail manuel quant à 
 Widgets et affichage du 2.5d
 L’usage du diagramme à secteur s’avère un moyen efficace de représentation étant donné l’objectif d’informer l’usager des proportions ciblées.  Un premier diagramme a été réalisé afin de visualiser le pourcentage de frênes publics parmi la totalité d’arbres montréalais et un second démontrant son taux d’abattage de frênes. 
 Des jauges dynamiques ont également été implantées en ce qui concerne les quantités d’arbres abattus et traités. Les quantités montrées par les jauges évoluent en fonction des rapprochements et éloignements par rapport à la carte afin de consulter l’information concernée uniquement par ce secteur. 
-En raison de l’impossibilité d’afficher la composante 2.5d par l’outil Dashboards, les extractions des données LiDAR correspondant aux frênes (voir TP2-README.md) ont été ajoutées à l’application par l’intermédiaire de l’interface Experience Builder d’AGOL depuis sa visualisation en mode Scene,
+En raison de l’impossibilité d’afficher la composante 2.5d par l’outil Dashboards, les extractions des données LiDAR correspondant aux frênes (voir TP2-README.md) ont été ajoutées à l’application par l’intermédiaire de l’interface Experience Builder d’AGOL depuis sa visualisation en mode Scene.
 
 
 

@@ -5,14 +5,12 @@ var map = new maplibregl.Map({
     center: [-73.55, 45.55], // position centrale de la carte
     zoom: 9, // niveau de zoom initial
     hash: true // activation du hash pour la gestion de l'historique de la carte
-})
+});
 
-({
 //ajout de la couche d'arbres abattus
 map.addSource("Arbres_abattus", {
     type: "geojson",
     data: "https://dservices6.arcgis.com/133a00biU9FItiqJ/arcgis/services/arbres_abattus_frenes_wfs/WFSServer?service=wfs&request=getfeature&outputFormat=geojson&typeNames=arbres_abattus_frenes_wfs:arbres_abattus",
-
   });
 
 //ajout de la couche d'arbres publics
@@ -30,7 +28,7 @@ map.addSource("Arbres_public", {
   });
 
 //ajout de la couche de frênes 3d
-map.addSource("Frênes 3s", {
+map.addSource("Frênes 3d", {
     type: "geojson",
     data: "https://dservices6.arcgis.com/133a00biU9FItiqJ/arcgis/services/frenes_lidar_wfs/WFSServer?service=wfs&request=getfeature&outputFormat=geojson&typeNames=frenes_lidar_wfs:frenes_lidar",
 
@@ -47,12 +45,11 @@ map.addSource("arrondissements", {
 //ajouter la couche raster
 map.addSource("", {
     type: "raster",
-    tiles: [
-      "https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}.jpeg?token=" + apiKey
+    tiles: ["https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}.jpeg?token=" + apiKey
     ]
   });
+};
 
+map.on('load', function (){
+  importCouches()
 })
-
-
-

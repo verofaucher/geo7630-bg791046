@@ -3,22 +3,26 @@ body {
     padding: 0;
 }
 
-#carte {
-    position: absolute ;
-    height: -webkit-fill-available;   
+#map {
+    position:absolute;
+    height: -webkit-fill-available;    
     width: 80%;
 }
 
 #menu {
     position: absolute;
-    top:4.5%;
+    top:50%;
     right: 0;
     width: 25%;
+}
+#barre {
+    background-color:olivedrab
 }
 
 #titre {
     color: white;
-    padding: 20px;
+    font-size: 150%;
+    padding: 10px;
 }
 #menu2 {
     position: absolute;

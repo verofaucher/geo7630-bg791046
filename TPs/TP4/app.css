@@ -4,7 +4,7 @@ body {
 }
 
 #map {
-    position:absolute;
+    position: absolute;
     height: -webkit-fill-available;    
     width: 80%;
 }

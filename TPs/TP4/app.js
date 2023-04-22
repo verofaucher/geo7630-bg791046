@@ -86,6 +86,21 @@ map.on("load", () => {
 
 });
 
+map.addSource("frenes_3d", {
+  type: "vector",
+  url: "https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/frenes_lidar/FeatureServer/0/query?f=geojson&where=1=1&outFields=*"
+});
+
+map.addLayer({
+  id: "frenes_3d",
+  type: "circle",
+  source: "frenes_3d",
+  paint: {
+      'circle-radius': 10,
+      'circle-color': '#784315',
+    }
+  });
+
   //Ajouter de la tuile vectorielles d'arrondissements
   map.addSource("arrondissements", {
     type: "vector",
@@ -93,6 +108,9 @@ map.on("load", () => {
       "https://vectortileservices6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/arrondissements_mtl/VectorTileServer/tile/{z}/{y}/{x}.pbf"
     ]
   });
+
+
+
   
   map.addLayer({
     'id': 'arrondissements',
@@ -109,15 +127,15 @@ map.on("load", () => {
 map.addSource('RASTER', {
   'type': 'raster',
   'tiles': [
-    'https://uqam-my.sharepoint.com/:i:/g/personal/bg791046_ens_uqam_ca/ET57pD2xHORGgZyp-S-hU3ABqCDpI5nrLRhRa6RjyFeLqg'
+    'https://uqam-my.sharepoint.com/personal/bg791046_ens_uqam_ca/Documents/7630_TP4/ahuntsic.tif'
   ],
   'tileSize': 256
 });
 map.addLayer({
   'id': 'RASTER',
   'type': 'raster',
-  'source': 'RASTER',
-  });
+  'source': 'RASTER'
+});
 });
 
 

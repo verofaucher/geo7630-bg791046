@@ -1,12 +1,25 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
+    color: #CCED90;
+}
+#barre {
+    background-color:olivedrab
 }
 
 #map {
     position: absolute;
     height: -webkit-fill-available;    
-    width: 80%;
+    width: 60%;
+    left: 20%;
+}
+
+#boutons {
+    position: absolute;
+    top:50%;
+    right: 100%;
+    left: 0%;
+    width: 25%;
 }
 
 #menu {
@@ -15,14 +28,13 @@ body {
     right: 0;
     width: 25%;
 }
-#barre {
-    background-color:olivedrab
-}
 
 #titre {
     color: white;
     font-size: 150%;
     padding: 10px;
+    right: 0;
+    width: 25%;
 }
 #menu2 {
     position: absolute;
@@ -52,7 +64,7 @@ body {
 }
 
 #bouton1 {
-    padding: 20px
+    margin-left: 20px;
 }
 
 #bouton2 {

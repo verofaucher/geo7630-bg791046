@@ -36,39 +36,20 @@ body {
     right: 200px;
 }
 
-#menu {
-    position: absolute;
-    top:50%;
-    right: 0;
-    width: 25%;
+#infoDiv {
+    background: white;
+    padding: 10px;
 }
 
-#menu2 {
-    position: absolute;
-    top:4.5%;
-    left: 0;
-    width: 25%;
+#viewDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-#menu3 {
-    position: relative;
-    top: 60%;
-    bottom: 0;
-    right: 0;
-    width: 50%;
+#legendDiv {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-#boite {
-    margin: 10px;
-    padding: 20px;
-    background: ligthgrey;
-}
-
-#boite2 {
-    margin: 10px;
-    padding: 20px;
-    background: ligthgrey;
-}
-
-
-

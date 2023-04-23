@@ -86,22 +86,9 @@ map.on("load", () => {
 
 });
 
-map.addSource("frenes_3d", {
-  type: "vector",
-  url: "https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/frenes_lidar/FeatureServer/0/query?f=geojson&where=1=1&outFields=*"
-});
 
-map.addLayer({
-  id: "frenes_3d",
-  type: "circle",
-  source: "frenes_3d",
-  paint: {
-      'circle-radius': 10,
-      'circle-color': '#784315',
-    }
-  });
 
-  //Ajouter de la tuile vectorielles d'arrondissements
+   //Ajouter de la tuile vectorielles d'arrondissements
   map.addSource("arrondissements", {
     type: "vector",
     tiles: [
@@ -109,9 +96,6 @@ map.addLayer({
     ]
   });
 
-
-
-  
   map.addLayer({
     'id': 'arrondissements',
     'type': 'fill',
@@ -121,20 +105,42 @@ map.addLayer({
       "fill-color": "olivedrab",
       "fill-opacity": 0.15,
       "fill-outline-color": "olivedrab"
-    }
-  });
-// Ajouter la couche WMS (Raster)
-map.addSource('RASTER', {
-  'type': 'raster',
-  'tiles': [
+      }
+    });
+
+// Ajouter la couche raster à partir d'une source WMS
+map.addSource('ahuntsic', {
+  type: 'raster',
+  tiles: [
     'https://uqam-my.sharepoint.com/personal/bg791046_ens_uqam_ca/Documents/7630_TP4/ahuntsic.tif'
   ],
-  'tileSize': 256
+  tileSize: 256
 });
+
 map.addLayer({
-  'id': 'RASTER',
-  'type': 'raster',
-  'source': 'RASTER'
+  id: 'ahuntsic',
+  type: 'raster',
+  source: 'ahuntsic'
+  });
+
+  map.on('load', function() {
+    // Ajouter la source vectorielle
+    map.addSource('frenes_3d', {
+      type: 'vector',
+      url: 'https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/frenes_lidar/FeatureServer/0'
+    });
+  
+    // Ajouter la couche de cercles à partir de la source vectorielle
+    map.addLayer({
+      id: 'frenes_3d',
+      type: 'circle',
+      source: 'frenes_3d',
+      paint: {
+        'circle-radius': 10,
+        'circle-color': '#784315'
+      }
+    });
+
 });
 });
 

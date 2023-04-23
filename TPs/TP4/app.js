@@ -86,8 +86,6 @@ map.on("load", () => {
 
 });
 
-
-
    //Ajouter de la tuile vectorielles d'arrondissements
   map.addSource("arrondissements", {
     type: "vector",
@@ -107,6 +105,25 @@ map.on("load", () => {
       "fill-outline-color": "olivedrab"
       }
     });
+
+  map.on('load', function() {
+      const targets = {
+          'arrondissements': 'Ville de Montréal',
+          'arbres_abattus': 'Arbres abattus',
+          'frenes_proteges': 'Frênes protégés',  
+          
+      };
+      let options = {
+        showDefault: true,
+        showCheckbox: true,
+        onlyRendered: true,
+        reverseOrder: true
+      };
+      map.addControl(new MapboxLegendControl(targets, options), "top-right");
+    
+    });
+
+
 
 // Ajouter la couche raster à partir d'une source WMS
 map.addSource('ahuntsic', {

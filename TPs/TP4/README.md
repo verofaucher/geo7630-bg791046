@@ -1,61 +1,28 @@
-TP4 - Développement d’une application web et diffusion des données_ (Open Source)_
+Véronique Faucher							                     25 avril 2023
+Intégration et visualisation de données géographiques
+TP4 – Rapport explicatif
+
+**Impact de l’agrile du frêne sur la canopée montréalaise (Partie 4)**
 
 
-# Prérequis pour le TP4
 
-- Une machine virtuelle complètement fonctionnelle
-- Base de données PostGIS locale avec donnés du TP2
-- Un serveur local Geoserver et pg_tileserv fonctionnels
+**Présentation générale**
 
+L'application présentée dans le cardre du présent travail consiste à visualiser le volume d'arbres abattus et protégés sur le territoire de la ville de Montréal. 
 
-# Consignes 
+**Importation des couches WFS**
 
-1. Le TP4 doit être remis dans votre dépôt github branche main ou tp4
+À partir des couches de type «Feature Layer» hébergées sur la plateforme ArcGIS Online (AGOL), la première couche importée consistait à représenter les arbres abattus. Afin d'améliorer la visibilité de l'ampleur de la situation, des cercles d'agglomération ont été générés en fonction du nombre d'éléments à visualiser selon le niveau de rapprochement désiré. D'un dégradé de couleur allant de rouge pâle à foncé, les agglomérations contenant 100 éléments ou moins ont été représentées par un cercle de 20 pixels, celles de 100 à 750 par un cercle de 30 pixels puis 40 pixels pour les agglomérations de plus de 750 éléments. 
+Le même processus à été appliqué à la représentation des frênes protégés par l'insecticide, cette fois-ci différenciée par la couleur turquoise. L'apparence des agglomérations fait référence aux couleurs choisies lors de la réalisation de l'exercice du TP3. 
 
-2. Le code du TP4 doit être remis dans le dossier TP4 de votre dépot
+**Importation de la couche d'arrondissements de Montréal**
 
-3. Une présentation de votre application dans votre dépôt Github sous le répertoire TP/TP4/README.md
+Convertie au format de tuiles vectorielles (VTS), les arrondissements de la ville de Montréal figurent en arrière-plan des arbres abattus et protégés. 
 
-4. Le code JAVASCRIPT seulement doit être documenté
+**Problèmes rencontrés**
 
-5. Une présentation orale de votre “projet” en 2 temps
+Uniquement une partie des éléments des couches WFS sont accessibles en raison de leur fort volume d'éléments et ce même malgé l'utilisation de «clusters». 
+Malgré l'application des procédures d'insertion, il fût impossible d'afficher l'image raster (WMS) et la représentation 2.5d des frênes. 
+La même problématique a été rencontrée au moment de l'affichage de la légende. 
+Initialement la présentation comprenait la présence de boutons servant à allumer et éteindre la couche WMS et celle des éléments en 2.5d mais il ne fût pas possible d'associer les couches à ceux-ci. Les boutons sont donc présents mais non-fonctionnels, de même que pour le menu déroulant destiné à contrôler l'affichage des couches WFS.
 
-   1. Présentation vulgarisée du traitement de données
-
-   2. Présentation vulgarisée et interactive de votre application
-
-      1. Cela p-e une video pré-enregistrée.
-      
-6. Le site doit être déployé dans github pages comme vu dans en classe
-
-
-# Grille d’évaluation
-
-1. Respect des consignes :  **10%**
-2. Un menu avec un texte descriptif: **10%**
-3. Une légende interactive: **10%**
-4. 1 à N couche WFS : **10%**
-5. 1 à N couche VTS : ** 10%**
-6. 1 à N couche matricielle WMS :** 10%**
-7. 1 à N couche extrudée (2.5D) : **10%**
-8. 1 à N couche Lidar 3D Tiles : **10%**
-9. 1 à N KPI dynamique : **10%**
-10. Animation des données :** 10%**
-11. Utilisation de 1 à N librairie externe: **10%**
-12. Respect des bonnes pratiques UI/UX: **10%**
-13. Respect des bonnes pratiques sémiologiques:**10%**
-14. Pertinence globale de l’application en fonction de la thématique choisie: **10%**
-15. Documentation du code : **10%**
-16. Mise en production de l’application : **10%**
-
-**Total : 160%**
-
-**Les % (15pts max) supplémentaires seront attribués pour relever la note globale******
-
-
-# Grille d’évaluation TP4 - présentation
-
-1. Présentation en classe 
-
-   1. Vulgarisation de votre traitement : 2%
-   2. Vulgarisation de votre application : 3%

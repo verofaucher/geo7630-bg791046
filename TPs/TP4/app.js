@@ -13,8 +13,8 @@ map.on("load", () => {
     type: "geojson",
     data: "https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/arbres_abattus_3857/FeatureServer/0/query?f=pgeojson&where=1=1&outFields=*",
     cluster: true,
-    clusterMaxZoom: 14, // Max zoom to cluster points on
-    clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+    clusterMaxZoom: 14, // Niveau de zoom maximum
+    clusterRadius: 50 // Rayon de chaque ''clusters''
   });
 //Création des clusters d'agglomération
   map.addLayer({
@@ -23,11 +23,10 @@ map.on("load", () => {
     source: 'arbres_abattus',
     filter: ['has', 'point_count'],
     paint: {
-      // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
-      // with three steps to implement three types of circles:
-      //   * Blue, 20px circles when point count is less than 100
-      //   * Yellow, 30px circles when point count is between 100 and 750
-      //   * Pink, 40px circles when point count is greater than or equal to 750
+      // 3 tailles de cercles pour chacunes des classes suivantes:
+      //   * Rose, 20px pour les agglomérations de 100 éléments et moins
+      //   * Rouge, 30px pour les agglomérations de 100 à 750 éléments
+      //   * Rouge foncé, 40px pour les agglomérations de plus de 750 éléments 
       'circle-color': [
         'step',
         ['get', 'point_count'],
@@ -53,8 +52,8 @@ map.on("load", () => {
     type: "geojson",
     data: "https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/frenes_proteges_tp4/FeatureServer/0/query?f=pgeojson&where=1=1&outFields=*",
     cluster: true,
-    clusterMaxZoom: 14, // Max zoom to cluster points on
-    clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+    clusterMaxZoom: 14, // Niveau de zoom maximum
+    clusterRadius: 50 // Rayon de chaque ''clusters''
   });
 
 //Création des clusters d'agglomération
@@ -64,6 +63,10 @@ map.on("load", () => {
     source: 'frenes_proteges',
     filter: ['has', 'point_count'],
     paint: {
+  // 3 tailles de cercles pour chacunes des classes suivantes:
+  //   * cyan, 20px pour les agglomérations de 100 éléments et moins
+  //   * cyan foncé, 30px pour les agglomérations de 100 à 750 éléments
+  //   * cyan plus foncé, 40px pour les agglomérations de plus de 750 éléments 
   'circle-color': [
   'step',
   ['get', 'point_count'],
@@ -86,7 +89,7 @@ map.on("load", () => {
 
 });
 
-   //Ajouter de la tuile vectorielles d'arrondissements
+   //Ajouter de la tuile vectorielles d'arrondissements VTS
   map.addSource("arrondissements", {
     type: "vector",
     tiles: [
@@ -105,7 +108,7 @@ map.on("load", () => {
       "fill-outline-color": "olivedrab"
       }
     });
-
+//Création de la légende
   map.on('load', function() {
       const targets = {
           'arrondissements': 'Ville de Montréal',
@@ -124,7 +127,6 @@ map.on("load", () => {
     });
 
 
-
 // Ajouter la couche raster à partir d'une source WMS
 map.addSource('ahuntsic', {
   type: 'raster',
@@ -140,14 +142,14 @@ map.addLayer({
   source: 'ahuntsic'
   });
 
+// Importer la source vectorielle 2.5d
   map.on('load', function() {
-    // Ajouter la source vectorielle
     map.addSource('frenes_3d', {
       type: 'vector',
       url: 'https://services6.arcgis.com/133a00biU9FItiqJ/arcgis/rest/services/frenes_lidar/FeatureServer/0'
     });
   
-    // Ajouter la couche de cercles à partir de la source vectorielle
+    // Ajouter la couche 3d
     map.addLayer({
       id: 'frenes_3d',
       type: 'circle',

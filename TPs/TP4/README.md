@@ -12,8 +12,8 @@ L'application présentée dans le cardre du présent travail consiste à visuali
 
 **Importation des couches WFS**
 
-À partir des couches de type «Feature Layer» hébergées sur la plateforme ArcGIS Online (AGOL), la première couche importée consistait à représenter les arbres abattus. Afin d'améliorer la visibilité de l'ampleur de la situation, des cercles d'agglomération ont été générés en fonction du nombre d'éléments à visualiser selon le niveau de rapprochement désiré. D'un dégradé de couleur allant de rouge pâle à foncé, les agglomérations contenant 100 éléments ou moins ont été représentées par un cercle de 20 pixels, celles de 100 à 750 par un cercle de 30 pixels puis 40 pixels pour les agglomérations de plus de 750 éléments. 
-Le même processus à été appliqué à la représentation des frênes protégés par l'insecticide, cette fois-ci différenciée par la couleur turquoise. L'apparence des agglomérations fait référence aux couleurs choisies lors de la réalisation de l'exercice du TP3. 
+À partir des couches de type «Feature Layer» hébergées sur la plateforme ArcGIS Online (AGOL), la première couche importée consistait à représenter les arbres abattus. Afin d'améliorer la visibilité de l'ampleur de la situation, des cercles d'aggrégation ont été générés en fonction du nombre d'éléments à visualiser selon le niveau de rapprochement désiré. D'un dégradé de couleur allant de rouge pâle à foncé, les aggrégations contenant 100 éléments ou moins ont été représentées par un cercle de 20 pixels, celles de 100 à 750 par un cercle de 30 pixels puis 40 pixels pour les aggrégations de plus de 750 éléments. 
+Le même processus à été appliqué à la représentation des frênes protégés par l'insecticide, cette fois-ci différenciée par la couleur turquoise. L'apparence des aggrégations fait référence aux couleurs choisies lors de la réalisation de l'exercice du TP3. 
 
 **Importation de la couche d'arrondissements de Montréal**
 

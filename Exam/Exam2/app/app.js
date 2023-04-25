@@ -20,7 +20,7 @@ map.on('click', 'stationsBixi', function (e) {
   });
 
 
-  map.on('idle', function () {
+    map.on('idle', function () {
     const layers = map.getStyle().layers;
     layers.forEach((layer) => {
         if (layer.id == 'stationsBixi') {
